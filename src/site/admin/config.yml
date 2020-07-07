@@ -20,8 +20,8 @@ collections:
     label: Frequently Asked Questions
     files:
       - file: src/site/_content/data/faqs.json
-        name: chapters
-        label: Add Chapters
+        name: faq
+        label: Add FAQs
         fields: 
           - label: Heading
             name: hed
