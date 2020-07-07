@@ -19,6 +19,7 @@ collections:
   - name: faqs
     label: Frequently Asked Questions
     file: src/site/_content/data/faqs.json
+    widget: list
     fields: 
       - {label: Question, name: hed, widget: string}
       - {label: Anchor ID, name: id, widget: string}
