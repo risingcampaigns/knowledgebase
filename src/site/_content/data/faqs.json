@@ -1,5 +1,27 @@
 {
-  "hed": "How long does it take to build the site?",
+  "hed": "Frequently Asked Questions",
   "dek": "Once we have content usually 5-10 business days.",
-  "id": "build-timeframe"
+  "id": "build-timeframe",
+  "item": [
+    {
+      "hed": "How long does it take to build the site?",
+      "dek": "Once we have content usually 5-10 business days.",
+      "id": "launch-timeline"
+    },
+    {
+      "hed": "How big does the Marquee image need to be?",
+      "id": "marq-image",
+      "dek": "At Least 1800x1800 pixels."
+    },
+    {
+      "hed": "Will Rising Campaigns host our Website?",
+      "dek": "Yes, we host your website while providing support and maintenance for a year. Hosting support will be renewed automatically at $500 at the year anniversary of the site launch if the site is still live.",
+      "id": "hosting"
+    },
+    {
+      "hed": "What services do you integrate with?",
+      "dek": "We currently integrate with ActBlue, Action Network, NGPVAN/EveryAction, and MailChimp. We do not have out the box integrations with Mobilize or Mobile Commons but can also use their form embed code or iframe. ",
+      "id": "integrations"
+    }
+  ]
 }
