@@ -19,12 +19,11 @@ collections:
   - name: faqs
     label: Frequently Asked Questions
     files:
-      file: src/site/_content/data/faqs.json
-      name: chapters
-      label: Add Chapters
-
-      widget: list
-      fields: 
-        - {label: Question, name: hed, widget: string}
-        - {label: Anchor ID, name: id, widget: string}
-        - {label: Answer, name: dek, widget: text, required: true}
+      - file: src/site/_content/data/faqs.json
+        name: chapters
+        label: Add Chapters
+        widget: list
+        fields: 
+          - {label: Question, name: hed, widget: string}
+          - {label: Anchor ID, name: id, widget: string}
+          - {label: Answer, name: dek, widget: text, required: true}
