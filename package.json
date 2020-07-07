@@ -22,12 +22,14 @@
     "gulp-serve": "^1.4.0",
     "gulp-shell": "^0.6.5",
     "gulp-uglify-es": "^1.0.4",
+    "markdown-it-anchor": "^5.3.0",
     "postcss-csso": "^3.0.0",
     "postcss-pixels-to-rem": "^0.8.0",
     "postcss-preset-env": "^6.5.0",
     "precss": "^4.0.0",
     "pump": "^3.0.0",
-    "require-dir": "^1.2.0"
+    "require-dir": "^1.2.0",
+    "slugify": "^1.4.4"
   },
   "devDependencies": {
     "gulp": "^4.0.0"

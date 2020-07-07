@@ -1,4 +1,12 @@
 module.exports = function(config) {  
+  // Markdown
+  let markdownIt = require("markdown-it");
+  let markdownItAnchor = require("markdown-it-anchor");
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
   const slugify = require("slugify");
   let opts = {
       // permalink: true,
@@ -15,18 +23,13 @@ module.exports = function(config) {
         return slugify(input, options);
       }
   };
-
-  // Markdown
-  let markdownIt = require("markdown-it");
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true
-  };
-  config.setLibrary("md", markdownIt(options));
-  config.setDynamicPermalinks(false);
+  config.setLibrary("md", markdownIt(options)
+    .use(markdownItAnchor, opts)
+  );
+  config.setDynamicPermalinks(true);
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy('img');
+  // config.addPassthroughCopy('_headers');
   config.addPassthroughCopy('fonts');
   config.addPassthroughCopy('src/site/admin/config.yml');
   return {
