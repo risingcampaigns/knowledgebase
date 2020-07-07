@@ -1,0 +1,4 @@
+{
+  "layout": "./_layouts/_post.njk",
+  "permalink": "/{{  title | slug  }}/index.html"
+}

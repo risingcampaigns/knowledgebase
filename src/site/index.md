@@ -1,5 +1,5 @@
 ---
-layout: _layout.pug
+layout: _layout.njk
 title: 11ty Starter
 subHed: Starter Site for Eleventy Projects
 ---
