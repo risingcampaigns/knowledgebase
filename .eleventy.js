@@ -1,5 +1,21 @@
 module.exports = function(config) {  
+  const slugify = require("slugify");
+  let opts = {
+      // permalink: true,
+      // permalinkClass: "direct-link",
+      // permalinkSymbol: "#",
   
+      // this is the same function shared above
+      slugify: function(input) {
+        const options = {
+          replacement: "-",
+          remove: /[&,+()$~%.'":*?<>{}]/g,
+          lower: true
+        };
+        return slugify(input, options);
+      }
+  };
+
   // Markdown
   let markdownIt = require("markdown-it");
   let options = {
