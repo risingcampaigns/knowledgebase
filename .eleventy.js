@@ -12,6 +12,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy('img');
   config.addPassthroughCopy('fonts');
+  config.addPassthroughCopy('src/site/admin/config.yml');
   return {
     dir: {
       input: "src/site",
