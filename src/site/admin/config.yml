@@ -5,25 +5,31 @@ backend:
 media_folder: "img/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  # - name: "articles" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Articles" # Used in the UI
-  #   folder: "src/site/_content/articles" # The path to the folder where the documents are stored
-  #   create: true # Allow users to create new documents in this collection
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-  #     - {label: "Deck", name: "dek", widget: "text", required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  - name: "articles" # Used in routes, e.g., /admin/collections/blog
+    label: "Articles" # Used in the UI
+    folder: "src/site/_content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Deck", name: "dek", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: faqs
     label: Frequently Asked Questions
     files:
       - file: src/site/_content/data/faqs.json
         name: chapters
         label: Add Chapters
-        widget: list
         fields: 
-          - {label: Question, name: hed, widget: string}
-          - {label: Anchor ID, name: id, widget: string}
-          - {label: Answer, name: dek, widget: text, required: true}
+          - label: Heading
+            name: hed
+            widget: string
+          - label: FAQ
+            name: item
+            widget: list
+            fields: 
+              - {label: Question, name: hed, widget: string}
+              - {label: Anchor ID, name: id, widget: string}
+              - {label: Answer, name: dek, widget: text, required: true}
