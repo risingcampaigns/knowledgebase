@@ -16,9 +16,9 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Deck", name: "dek", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: faqs
-    label: Frequently Asked Questions
-    file: src/site/_content/data/faqs.json
+  - name: "faqs"
+    label: "Frequently Asked Questions"
+    file: "src/site/_content/data/faqs.json"
     fields: 
       - {label: Question, name: hed, widget: string}
       - {label: Anchor ID, name: id, widget: string}
