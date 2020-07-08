@@ -22,7 +22,6 @@
     </h1>
 
     <nav class="site__hed--nav">
-      {% set navPages = collections.all | eleventyNavigation %}
     {% set navPages = collections.all | eleventyNavigation %}
       {% macro renderNavListItem(entry) -%}
         <li{% if entry.url == page.url %} class="nav__item"{% endif %}>
