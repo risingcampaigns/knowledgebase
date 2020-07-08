@@ -2,7 +2,7 @@
 title: Logging In
 eleventyNavigation:
   key: logging-in
-  parent: articles
+  parent: Articles
   order: 0
 date: 2020-07-07T21:14:35.677Z
 ---

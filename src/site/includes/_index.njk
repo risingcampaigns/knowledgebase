@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,8 +46,8 @@
       <h2 class="long__hed--title">{{ title }}</h2>
     </header>
     <article class="long__body">
-
       {{content | safe }}
+  {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({ showExcerpt: true }) | safe }}
     </article>
   </section>
   <script src="/js/main.js" async></script>
