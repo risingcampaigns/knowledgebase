@@ -1,7 +1,7 @@
 ---
 title: Editing the Homepage
 eleventyNavigation:
-  key: editing-homepage
+  key: Editing the Homepage
   order: 1
 date: 2020-07-07T19:24:35.460Z
 thumbnail: /img/uploads/logo-blue_on_transparent.png
