@@ -2,6 +2,8 @@
 title: Editing the Homepage
 date: 2020-07-07T19:24:35.460Z
 thumbnail: /img/uploads/logo-blue_on_transparent.png
+eleventyNavigation:
+  key: Homepage
 ---
 ## Homepage
 
