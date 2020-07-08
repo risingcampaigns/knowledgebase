@@ -1,0 +1,56 @@
+.site {
+  background: $brandDk;
+  animation: onLoad 1.2s forwards .15s 1;
+  animation-play-state: running;
+  padding-top:8vh;
+  &:before {
+    content:'';
+    z-index:-1;
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    background:$attn;
+    animation: colorSlideM .5s forwards .6s 1;
+    animation-play-state: running;
+    @media screen and (min-width:767px) {
+      animation: colorSlide .5s forwards .6s 1;
+      animation-play-state: running;
+    }
+  }
+
+  &__hed {
+    margin: 6vh 4vw;
+    padding: 0 22px;
+    width: 92vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include hrefColor(white, white, white);
+    text-decoration: none;
+    font-family:"Arthura-Black", Helvetica, sans-serif;
+    line-height:1.41;
+    font-size:18px;
+    background:#13193A;
+    color:white;
+    @media screen and (min-width:740px) {
+      font-size:21px;
+    }
+    &--title {
+      margin-top: 21px;
+    }
+  }
+}
+.nav {
+  &__item {
+    &--link {
+      margin-top: 21px;
+      margin-bottom: 21px;
+      position: relative;
+      display: inline-flex;
+      align-items:flex-start;
+    }
+  }
+}

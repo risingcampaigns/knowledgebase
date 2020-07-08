@@ -2,6 +2,9 @@
 layout: _layout.njk
 title: 11ty Starter
 subHed: Starter Site for Eleventy Projects
+eleventyNavigation:
+  key: Home
+  url: /
 ---
 
 ## Welcome to Eleventy

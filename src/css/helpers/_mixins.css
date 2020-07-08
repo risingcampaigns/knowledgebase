@@ -1,0 +1,14 @@
+@mixin hrefColor($link, $hover, $action) {
+  a {
+    &:link,
+    &:visited {
+      color: $link;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:action {
+      color: $action;
+    }
+  }
+}

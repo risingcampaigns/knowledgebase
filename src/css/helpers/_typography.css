@@ -1,0 +1,136 @@
+.site__hed{
+  font-family:"Arthura-Black", Helvetica, sans-serif;
+  line-height:.94;
+  text-transform:uppercase;
+  @media screen and (max-width:740px) {
+    font-size:35px;
+    text-align:center;
+    letter-spacing:.29rem;
+  }
+  @media screen and (min-width:740px) and (max-width:840px) {
+    font-size:69px;
+  }
+  @media screen and (min-width:840px) and (max-width:960px) {
+    font-size:74px;
+  }
+  @media screen and (min-width:960px) and (max-width:1200px) {
+    font-size:88px;
+  }
+  @media screen and (min-width:1200px) {
+    font-size:104px;
+  }
+}
+%siteSub {
+  font-family:"Arthura-MediumItalic", Helvetica, sans-serif;
+  line-height:1.41;
+  font-size:18px;
+  @media screen and (min-width:740px) and (max-width:980px) {
+    font-size:16px;
+  }
+  @media screen and (min-width:980px) and (max-width:1200px) {
+    font-size:24px;
+  }
+  @media screen and (min-width:1200px) {
+    font-size:28px;
+  }
+}
+%baseHed {
+  font-family:"Arthura-Black", Helvetica, sans-serif;
+  line-height:.94;
+  text-transform:uppercase;
+  @media screen and (max-width:740px) {
+    font-size:30px;
+    text-align:center;
+    letter-spacing:.29rem;
+  }
+  @media screen and (min-width:740px) and (max-width:960px) {
+    font-size:35px;
+  }
+  @media screen and (min-width:1200px) {
+    font-size:48px;
+  }
+}
+
+%baseP {
+  font-family:"Arthura-Light", Helvetica, sans-serif;
+  line-height:1.61;
+  font-size:18px;
+  @media screen and (max-width:740px) {}
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%baseLi {
+  font-family:"Arthura-Light", Helvetica, sans-serif;
+  line-height:1.41;
+  font-size:16px;
+  @media screen and (max-width:740px) {}
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%hedP {
+  font-family:"Arthura-Black", Helvetica, sans-serif;
+  line-height:.97;
+  @media screen and (max-width:740px) {
+    font-size:60px;
+    letter-spacing:.29rem;
+  }
+  @media screen and (min-width:740px) {
+    font-size:7.5vw;
+  }
+}
+%hedT {
+  font-family:"Arthura-Black", Helvetica, sans-serif;
+  line-height:1.41;
+  font-size:18px;
+  @media screen and (min-width:740px) {
+    font-size:21px;
+  }
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%hedS {
+  font-family:"Arthura-Black", Helvetica, sans-serif;
+  line-height:1.12;
+  @media screen and (max-width:740px) {
+    font-size:22px;
+
+  }
+  @media screen and (min-width:740px) {
+    font-size:39px;
+  }
+}
+%promoP {
+  font-family:"Arthura-Light", Helvetica, sans-serif;
+  line-height:1.61;
+  font-size:21px;
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%data {
+  font-family:"Arthura-Medium", Helvetica, sans-serif;
+  line-height:1.41;
+  font-size:16px;
+  @media screen and (max-width:740px) {}
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%dataSecondary {
+  font-family:"Arthura-Light", Helvetica, sans-serif;
+  font-size:.8em;
+  @media screen and (max-width:740px) {}
+  @media screen and (min-width:740px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
+}
+%siteFoot {
+  font-family:"Arthura-MediumItalic", Helvetica, sans-serif;
+  line-height:1.41;
+  font-size:12px;
+  @media screen and (min-width:740px) {
+  }
+  @media screen and (min-width:980px) and (max-width:1200px) {
+    font-size:14px;
+  }
+  @media screen and (min-width:1200px) {
+    font-size:16px;
+  }
+}

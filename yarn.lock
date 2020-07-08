@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@11ty/eleventy-navigation@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-navigation/-/eleventy-navigation-0.1.6.tgz#26c1880494b99dd961efa51bdf866485a0adddde"
+  integrity sha512-ZGZebFEEDiJoS7BvxxiWrKdsCodNkqCsQ7S75IIvaPynHvojqcCVtS4uZk54K+LC+YqL5+T716TlsMG6Mc2p0g==
+  dependencies:
+    dependency-graph "^0.8.1"
+
 "@11ty/eleventy@^0.7.1":
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy/-/eleventy-0.7.1.tgz#56ef50fae0b1390f5799b25abf85f0a60abc21ad"
@@ -1225,6 +1232,11 @@ depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+
+dependency-graph@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.8.1.tgz#9b8cae3aa2c7bd95ccb3347a09a2d1047a6c3c5a"
+  integrity sha512-g213uqF8fyk40W8SBjm079n3CZB4qSpCrA2ye1fLGzH/4HEgB6tzuW2CbLE7leb4t45/6h44Ud59Su1/ROTfqw==
 
 dependency-tree@^6.3.0:
   version "6.5.0"

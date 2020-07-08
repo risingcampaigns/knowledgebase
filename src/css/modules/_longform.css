@@ -1,0 +1,15 @@
+.long {
+  margin: 16vh 4vw;
+  width: 92vw;
+  @media screen and (min-width:740px) {
+    display: grid;
+    grid-template-columns:minmax(150px,300px) minmax(54%,728px) auto;
+    &__hed {
+      grid-column:2 / span 2;
+    }
+    &__body {
+      grid-column:2 / span 1;
+    }
+  }
+
+}

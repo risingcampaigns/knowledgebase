@@ -1,4 +1,6 @@
-module.exports = function(config) {  
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+module.exports = function(config) {
+  config.addPlugin(eleventyNavigationPlugin);
   // Markdown
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

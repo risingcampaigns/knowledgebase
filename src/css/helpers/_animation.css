@@ -1,0 +1,109 @@
+@keyframes onLoad {
+  0% {
+    background: $brandDk;
+    padding-top:8vh;
+  }  12% {
+    background: $brandDk;
+  } 74% {
+    background: white;
+  } 100% {
+    background: white;
+    padding-top:0;
+  }
+}
+@keyframes colorSlideM {
+  0% {
+    width:0;
+    right:100vw;
+    left:0;
+  } 100% {
+    width:6vw;
+    right:94vw;
+    left:0;
+  }
+}
+@keyframes colorSlide {
+  0% {
+    width:0;
+    right:100vw;
+    left:0;
+  } 100% {
+    width:12vw;
+    right:88vw;
+    left:0;
+  }
+}
+@keyframes colorSlideBackM {
+  0% {
+    width:0;
+    left:100vw;
+    right:0;
+  } 100% {
+    width:6vw;
+    left:94vw;
+    right:0;
+  }
+}@keyframes colorSlideBack {
+  0% {
+    width:0;
+    left:100vw;
+    right:0;
+  } 100% {
+    width:12vw;
+    left:88vw;
+    right:0;
+  }
+}
+@keyframes destHed {
+  0% {
+    margin-left:-200%;
+  } 100% {
+    margin: 0;
+  }
+}
+@keyframes destSub {
+  0% {
+    height:34px;
+    padding-top:34px;
+  } 100% {
+    padding-top:0;
+  }
+}
+@keyframes destBar {
+  0% {
+    height:0;
+  } 100% {
+    height: 100%;
+  }
+}
+@keyframes borderSet {
+  0% {
+    width:0%;
+    left:0;
+  } 40% {
+    width:57%;
+    left:0;
+  } 100% {
+    width:57%;
+    left:0;
+  }
+}
+@keyframes borderSlide {
+  0% {
+    width:57%;
+    left:0;
+  } 40% {
+    width:0%;
+    left:0;
+  } 50% {
+    width:0%;
+  } 60% {
+    width:0%;
+    right:0;
+  } 70% {
+    width:0%;
+  } 100% {
+    width:57%;
+    right:0;
+  }
+}
