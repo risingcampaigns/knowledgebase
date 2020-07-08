@@ -16,7 +16,7 @@ collections:
         name: "eleventyNavigation"
         widget: "object"
         fields:
-          - { label: "parent", name: "articles", widget: "hidden" }
+          - { label: "parent", name: "parent", widget: "hidden", default: 'articles' }
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
 
