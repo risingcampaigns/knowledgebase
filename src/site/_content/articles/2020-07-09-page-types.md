@@ -1,5 +1,5 @@
 ---
-title: Page Types
+title: Page Types/Internal Pages
 eleventyNavigation:
   parent: articles
   order: 0
