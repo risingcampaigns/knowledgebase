@@ -1,7 +1,7 @@
 ---
-title: Logging In
+title: Getting Started
 eleventyNavigation:
-  key: logging-in
+  key: Getting-started
   parent: Articles
   order: 0
 date: 2020-07-07T21:14:35.677Z
