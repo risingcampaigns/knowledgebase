@@ -1,12 +1,10 @@
 ---
 layout: _layout.njk
-title: 11ty Starter
-subHed: Starter Site for Eleventy Projects
+title: Welcome to Rising Campaigns
+subHed: 
 eleventyNavigation:
   key: Home
   url: /
 ---
 
-## Welcome to Eleventy
-
-This is a boilerplate for kicking off a new [Eleventy](https://www.11ty.io/) Project. Read the [docs](https://www.11ty.io/docs/)
+[Rising Campaigns](https://risingcampaigns.com) is a platform for quickly launching websites that grow with your campaign and load fast on all types of internet connections.
