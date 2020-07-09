@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 eleventyNavigation:
-  key: Getting-started
+  key: getting-started
   parent: Articles
   order: 1
 date: 2020-07-07T21:14:35.677Z
