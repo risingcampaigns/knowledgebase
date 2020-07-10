@@ -1,7 +1,7 @@
 ---
 title: "Website Glossary "
 eleventyNavigation:
-  parent: articles
+  parent: Articles
   order: 7
   key: "website-glossary "
 date: 2020-07-09T21:42:27.460Z

@@ -1,7 +1,7 @@
 ---
 title: Integrations
 eleventyNavigation:
-  parent: articles
+  parent: Articles
   order: 9
   key: integrations
 date: 2020-07-09T21:45:01.882Z
