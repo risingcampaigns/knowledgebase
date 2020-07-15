@@ -66,24 +66,27 @@
       height: 0;
       overflow: hidden;
       li {
-        width: 320px;
+        max-width: 320px;
         a {
           margin-bottom: 0;
         }  
       }
     }
-    &:hover &--children {
+    & &--children {
       height: auto;
       background: $brandDk;
       padding: 22px;
       max-height: 92vh;
       display: flex;
       flex-flow: row wrap;
-      align-content: flex-end;
+      align-content: flex-start;
+      justify-content: space-evenly;
     }
-    &:hover &--children &--children {
+    & &--children &--children {
+      padding: 22px 11px;
       flex-flow: column wrap;
       position: relative;
+      justify-content: stretch;
     }
   }
 }
