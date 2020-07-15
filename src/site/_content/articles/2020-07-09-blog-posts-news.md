@@ -1,8 +1,8 @@
 ---
 title: Blog Posts/News
 eleventyNavigation:
-  parent: Articles
-  order: 5
+  parent: Page and Content Types
+  order: 0
   key: blog-post
 date: 2020-07-09T18:57:36.122Z
 ---
