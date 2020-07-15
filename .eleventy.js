@@ -29,6 +29,12 @@ module.exports = function(config) {
     .use(markdownItAnchor, opts)
   );
   config.setDynamicPermalinks(true);
+  // Filter source file names using a glob
+  config.addCollection("articles", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("_Content/articles/*.md");
+  });
+
+
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy('img');
   // config.addPassthroughCopy('_headers');
