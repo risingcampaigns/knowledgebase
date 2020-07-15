@@ -50,7 +50,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   &__item {
-    flex: 0 0 auto;
+    flex: 0 1 20%;
     margin-left: 12px;
     &--link {
       margin-top: 21px;
@@ -78,8 +78,12 @@
       padding: 22px;
       max-height: 92vh;
       display: flex;
-      flex-flow: column wrap;
+      flex-flow: row wrap;
       align-content: flex-end;
+    }
+    &:hover &--children &--children {
+      flex-flow: column wrap;
+      position: relative;
     }
   }
 }
