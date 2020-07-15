@@ -3,7 +3,7 @@ title: Media Assets
 eleventyNavigation:
   parent: Getting Started
   order: 6
-  key: media-assets
+  key: Media Assets
 date: 2020-07-09T21:38:38.180Z
 ---
 Text about media assets. 
