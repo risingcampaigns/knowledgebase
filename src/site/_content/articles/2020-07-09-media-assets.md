@@ -1,7 +1,7 @@
 ---
 title: Media Assets
 eleventyNavigation:
-  parent: Articles
+  parent: Getting Started
   order: 6
   key: media-assets
 date: 2020-07-09T21:38:38.180Z
