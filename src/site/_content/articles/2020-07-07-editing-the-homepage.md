@@ -93,9 +93,3 @@ If your organization accepts donations, we use an ActBlue and EA/NGPVAN embeds t
 
 
 ## Promotional Kickers
-
-## Basic Pages
-
-## Destination Pages
-
-## Settings
