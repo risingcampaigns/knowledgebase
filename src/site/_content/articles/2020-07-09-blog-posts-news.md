@@ -10,11 +10,13 @@ Blog Post/News sections allows you to actively run a blog with attributions to a
 
 ![](/img/uploads/content_manager-1-.png)
 
- 
-
 Here is a sample blog section:
 
 ![](/img/uploads/news-2-.png)
+
+Here is what the interior page looks like:
+
+![](/img/uploads/test_post.png)
 
 Here is what the backend looks like:
 
@@ -30,3 +32,4 @@ Things you will need to execute a blog:
 * Date
 * Author
 * Image (Optional)
+* Social Share (Optional)
