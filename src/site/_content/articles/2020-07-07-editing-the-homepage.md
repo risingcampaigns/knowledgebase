@@ -66,8 +66,6 @@ Now that you know what the Supplemental section looks like on the backend here i
 
 If your organization accepts donations, we use an ActBlue and EA/NGPVAN embeds to power our donation forms. We’ll simply need a link to your ActBlue/EA Form and to populate the donation amount on the backend. Here is an example of what a donation form looks like:
 
-
-
 * ### **ActBlue-**
 
   For the ActBlue donation piece we simply need you enter the URL of the ActionBlue form and then provide matching donation amounts. Here is a sample of the front end and what you see on the backend:
@@ -86,10 +84,53 @@ If your organization accepts donations, we use an ActBlue and EA/NGPVAN embeds t
   ![](/img/uploads/content_manager-2-.png)
 * The user will be taken to the NGPVAN/EveryAction for to complete their donation but the amount the user selected will be pre-populated. Through this integration we can also turn on form pre-fill if your users are cookied into NGPVAN/EveryAction Fast Pass system. 
 
-
-
 ## Forms
 
 
 
+## Forms
+
+* ### NGPVAN/EveryAction, The Action Network, MailChimp
+
+  Form code can be grabbed from the form that your organization creates on your CRM. Once you have that code, simple place that code in the Body section of any page and your styled form will be created. Here is an example of form code that you would place in the body section of the CMS:
+
+  (NEED PHOTO)
+* ### Mobilize (Events)
+
+  We don't have an active integration with Mobilize but we can use their iframe solution to link your Mobilize forms to you website allowing the user to stay on site rather than be redirected to a new URL. To do this we will your i-frame code from Mobilize and can plug that in the Body section just like we would an integrated embed code for the forms section.
+
+  (CAN WE USE PA STANDS UP?)
+* ### Mobile Commons (Mobile)
+
+  We do not have a direct integration with Mobile Commons but can pull their embed code that is created on the Mobile Commons side and paste it into the body. In most cases this will work seamlessly with the style of your site, but in some cases we will need to help edit the code to overwrite any rules that come with code regarding styling of the form. 
+
 ## Promotional Kickers
+
+Promotion kickers allow you to place blocks of content that take the user to a new page whether it is new or action related is up to you. These content section are a nice way to drive important action on what is going on with the campaign effort. 
+
+How do I access Promotional Kickers? Click Promotional Kickers in the center navigation.
+
+![](/img/uploads/content_manager-4-.png)
+
+To add a kicker select the add kicker box to bring up more content options:
+
+![](/img/uploads/content_manager-5-.png)
+
+Here is what your content options will be followed by what one looks like filled out:
+
+![](/img/uploads/screen-shot-2020-07-17-at-2.16.17-pm.png)
+
+![](/img/uploads/screen-shot-2020-07-17-at-2.16.36-pm.png)
+
+![](/img/uploads/screen-shot-2020-07-17-at-2.16.42-pm.png)
+
+What will you need to for a promotional kicker?
+
+* Title (Keep it short)
+* Deck (Keep it short)
+* Image (Optional)
+* Link (This can be internal or external link)
+
+Here is a sample Promotional Kicker section:
+
+![](/img/uploads/screen-shot-2020-07-17-at-2.21.13-pm.png)
