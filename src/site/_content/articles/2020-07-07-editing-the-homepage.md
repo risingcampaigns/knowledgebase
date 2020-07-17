@@ -66,13 +66,25 @@ Now that you know what the Supplemental section looks like on the backend here i
 
 If your organization accepts donations, we use an ActBlue and EA/NGPVAN embeds to power our donation forms. We’ll simply need a link to your ActBlue/EA Form and to populate the donation amount on the backend. Here is an example of what a donation form looks like:
 
-![](/img/uploads/screen-shot-2020-07-16-at-4.24.20-pm.png)
 
 
+* ### **ActBlue-**
 
-Here is an example of what that looks like on the backend for submitting information:
+  For the ActBlue donation piece we simply need you enter the URL of the ActionBlue form and then provide matching donation amounts. Here is a sample of the front end and what you see on the backend:
 
-![](/img/uploads/screen-shot-2020-07-16-at-4.22.32-pm.png)
+  ![](/img/uploads/screen-shot-2020-07-17-at-1.52.35-pm.png)
+
+  ![](/img/uploads/content_manager-3-.png)
+
+  The user will be taken to the ActBlue for to complete their donation but the amount the user selected will be pre-populated. 
+* ### NGPVAN/EveryAction
+
+  For the NGPVAN/EveryAction donation piece we simply need you enter the URL of the NGPVAN/EveryAction form and then provide matching donation amounts. Here is a sample of the front end and what you see on the backend:
+
+  ![](/img/uploads/screen-shot-2020-07-17-at-1.52.35-pm.png)
+
+  ![](/img/uploads/content_manager-2-.png)
+* The user will be taken to the NGPVAN/EveryAction for to complete their donation but the amount the user selected will be pre-populated. Through this integration we can also turn on form pre-fill if your users are cookied into NGPVAN/EveryAction Fast Pass system. 
 
 
 
