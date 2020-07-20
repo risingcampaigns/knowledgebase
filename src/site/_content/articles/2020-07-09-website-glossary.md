@@ -30,6 +30,12 @@ Key words and acronyms that you should know when working with websites.
 
 ## Common Site Errors
 
+
+
+**Error 400: Bad Request:** The 400 is a generic error you get when the server can’t understand the request from the browser, either because it was not sent correctly or because it was corrupted along the way. A 400 error can be due to a number of factors, including a bad internet connection, a caching issue, or a browser malfunction. Check your connection and settings, clear your cache, open a different browser, and retry.
+
+**Error 401: Authorization Required:** The 401 error occurs when you try to access a web page that requires a password. There’s no workaround for this one other than obtaining a password through the proper channels.
+
 **Error 403: Forbidden:** When you try to load a web page you don’t have permission to access, you’ll get a 403 error. Usually, getting this error means you have entered a URL or clicked a link that goes to a page that has been set up with access permissions, meaning you have to have an account or some other type of authorization in order to access the page. Try going to the website’s home page and getting to your desired location from there, checking to see if an account signup is an option.
 
 **Error 404: Not Found:** A 404 error indicates that the server can't find the page you’re looking for. With this error, chances are the URL has been entered incorrectly, so double-check the spelling, punctuation and suffix (.com, .net, .org, etc.) of the domain name and try again.
