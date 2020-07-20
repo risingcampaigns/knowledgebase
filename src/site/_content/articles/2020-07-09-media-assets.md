@@ -14,16 +14,14 @@ You will also be able to access the media section on individual pages in the CMS
 
 ![](/img/uploads/screen-shot-2020-07-17-at-2.25.31-pm.png)
 
-## Uploading Images/Video-
+## Uploading Images
 
 1. Click on the the various option to add an image as stated above.
-
 2. Once you the media manager pulled up you will be able to select from previously uploaded files or upload a new photo:
 
 ![](/img/uploads/content_manager-7-.png)
 
- 3. Once that is selected it will bring up your systems download options and you can find and select the file you wish to upload.
-
+3. Once that is selected it will bring up your systems download options and you can find and select the file you wish to upload.
 4. Once you have uploaded the file, be sure to select the and then hit the "Choose Selected" button.
 
 ![](/img/uploads/content_manager-8-.png)
