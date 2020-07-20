@@ -35,9 +35,7 @@ Now that you have seen what the backend looks like here is an overview of where 
 
 ![](https://lh4.googleusercontent.com/F7Su5s3goPvaTakO06vujraWmXD-b-FAZpECSrHrICm6xD_27Xk-iWWeZ3aNVKnByOgjB1_Fz1CuLhanBBKTTCrjdqoZlrwtDB-bZdwIWQTtJBPOwGB_SokQxeRtSOdQGVPUX5Cj)
 
-# \
-
-Supplemental
+## Supplemental
 
 The supplemental section is a place where you tell as much as you can about your campaigns and function as possible. This is where your mission statement should and important details users are searching to learn about you should live.
 
@@ -85,8 +83,6 @@ If your organization accepts donations, we use an ActBlue and EA/NGPVAN embeds t
 * The user will be taken to the NGPVAN/EveryAction for to complete their donation but the amount the user selected will be pre-populated. Through this integration we can also turn on form pre-fill if your users are cookied into NGPVAN/EveryAction Fast Pass system. 
 
 ## Forms
-
-
 
 ## Forms
 
