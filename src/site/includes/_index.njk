@@ -19,7 +19,8 @@
 <body class="site">
   <header class="site__hed">
     <h1 class="site__hed--title">
-      <span>Rising Campaigns Knowledgebase</span>
+      <span>Docs</span>
+      <img src="/img/logo__draft.png">
     </h1>
 
     <nav class="site__hed--nav">
@@ -27,11 +28,11 @@
       {% macro renderNavListItem(entry) -%}
         <li class="nav__item">
           <a class="nav__item--link" href="{{ entry.url | url }}">{{ entry.title }}</a>
-        {%- if entry.children.length -%}
+          {%- if entry.children.length -%}
           <ul class="nav__item--children">
             {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
           </ul>
-        {%- endif -%}
+          {%- endif -%}
         </li>
       {%- endmacro %}
 

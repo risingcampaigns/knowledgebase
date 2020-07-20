@@ -1,7 +1,8 @@
 .site {
   color: $brandDk;
 }
-.long {
+.long__body,
+.long__hed {
   p {
     font-family:"Arthura-Light", Helvetica, sans-serif;
     line-height:1.61;

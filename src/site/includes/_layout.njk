@@ -18,7 +18,8 @@
 <body class="site">
   <header class="site__hed">
     <h1 class="site__hed--title">
-      <span>Rising Campaigns Knowledgebase</span>
+      <span>Docs</span>
+      <img src="/img/logo__draft.png">
     </h1>
 
     <nav class="site__hed--nav">
@@ -40,13 +41,31 @@
     </nav>
   </header>
   <section class="long">
+      <nav class="long__nav">
+    {% set navPages = collections.all | eleventyNavigation %}
+      {% macro renderNavListItem(entry) -%}
+        <li class="long__nav--item">
+          <a class="long__nav--item--link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {%- if entry.children.length -%}
+          <ul class="long__nav--item--children">
+            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+          </ul>
+          {%- endif -%}
+        </li>
+      {%- endmacro %}
+
+      <ul class="nav">
+      {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+      </ul>
+    </nav>
+
     <header class="long__hed">
       <h2 class="long__hed--title">{{ title }}</h2>
     </header>
     <article class="long__body">
-
       {{content | safe }}
     </article>
+
   </section>
   <script src="/js/main.js" async></script>
 </body>

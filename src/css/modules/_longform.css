@@ -1,6 +1,33 @@
 .long {
   margin: 16vh 4vw;
+  padding: 8px;
   width: 92vw;
+  &__nav {
+    line-height:1.41;
+    font-size:16px;
+    padding: 12px;
+    margin-right: 18px;
+    background: white;
+    border-radius:2px;
+    a {
+      &:link,
+      &:visited {
+        color: $brandDk;
+        text-decoration: none;
+      }
+    }
+    li {
+      font-family:"Arthura-Black", Helvetica, sans-serif;
+      padding:2px 0 6px;
+      li li {
+        padding-left : 8px;
+        font-family:"Arthura-Bold", Helvetica, sans-serif;
+      }
+    }
+    @media screen and (max-width:740px) {}
+    @media screen and (min-width:740px) and (max-width:1200px) {}
+    @media screen and (min-width:1200px) {}    
+  }
   @media screen and (min-width:740px) {
     display: grid;
     grid-template-columns:minmax(150px,300px) minmax(54%,728px) auto;
@@ -9,6 +36,11 @@
     }
     &__body {
       grid-column:2 / span 1;
+    }
+    &__nav {
+      grid-column:1;
+      grid-row: 2;
+      box-shadow: -17px 0px 22px rgba(19,25,58,.2);
     }
   }
 
