@@ -31,20 +31,23 @@
       height: 42px;
       display: flex;
       flex-flow: row-reverse nowrap;
-      li ul {
-        max-height: 0;
+      ul {
         overflow: hidden;
       }
       &.visible {
         overflow: visible;
-        li ul {
-          max-height:100vh;
+        max-height:100vh;
+        height: auto;
+        ul {
+          overflow: visible;
         }
       }
       svg {
         z-index: 2;
-        flex:0 0 24px;
-        margin-left: -24px;
+        flex:0 0 0;
+        margin: 16px 12px 0 -40px;
+        height: 14px;
+        overflow: visible;
         fill: $brandDk;
       }
       ul {
@@ -68,9 +71,16 @@
     }
     &__nav {
       grid-column:1;
-      grid-row: 2;
-      margin-right:0 18px 0 0;
-      box-shadow: -17px 0px 22px rgba(19,25,58,.2);
+      grid-row: 1 / span 2;
+      /* display: flex; */
+      margin:0 18px 0 0;
+      .nav {
+        top: 0;
+        position: sticky;
+      }
+      svg {
+        display: none;
+      }
       li {
         padding:2px 0 6px;
       }
