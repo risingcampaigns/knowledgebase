@@ -54,7 +54,7 @@ collections:
             widget: string
           - label: Terms
             name: item
-            widget: text
+            widget: list
             fields: 
               - {label: Term, name: hed, widget: string}
               - {label: Anchor ID, name: id, widget: string}
