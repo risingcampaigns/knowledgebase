@@ -1,1 +1,10 @@
-{}
+{
+  "item": [
+    {
+      "hed": "Term",
+      "id": "term",
+      "dek": "Here's the definition"
+    }
+  ],
+  "hed": "Glossary of Terms"
+}
