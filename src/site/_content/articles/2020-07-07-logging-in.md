@@ -8,7 +8,7 @@ date: 2020-07-07T21:14:35.677Z
 ---
 ## First-time Access
 
-You will receive an email from <no-reply@netlify.com> inviting you to create an account on your new site. Click on the **Accept the invite** link and follow the instructions to set your password. 
+You will receive an email from `no-reply@netlify.com` inviting you to create an account on your new site. Click on the **Accept the invite** link and follow the instructions to set your password. 
 
 ## How do I log in? 
 
@@ -16,7 +16,7 @@ Once your password is set, you can access the admin area by going to `mydomain.o
 
 ## Lost Password
 
-If you have lost your password, you can create a new one by going to the Login screen and clicking **Lost Password?**. An email containing a password reset link will be sent to your email address from <no-reply@netlify.com>. Click that link and follow the instructions to reset your password.
+If you have lost your password, you can create a new one by going to the Login screen and clicking **Lost Password?**. An email containing a password reset link will be sent to your email address from `no-reply@netlify.com`. Click that link and follow the instructions to reset your password.
 
 ## Log In Troubleshooting
 
