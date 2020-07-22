@@ -49,9 +49,13 @@ collections:
         name: faq
         label: Add Term
         fields: 
-          - label: Term
+          - label: Page Titles
             name: hed
             widget: string
-          - label: Definition
+          - label: Terms
             name: item
             widget: text
+            fields: 
+              - {label: Term, name: hed, widget: string}
+              - {label: Anchor ID, name: id, widget: string}
+              - {label: Definition, name: dek, widget: text, required: true}
