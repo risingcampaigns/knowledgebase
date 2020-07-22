@@ -23,7 +23,7 @@
       <img src="/img/logo__draft.png">
     </h1>
 
-    <nav class="site__hed--nav">
+    {# <nav class="site__hed--nav">
     {% set navPages = collections.all | eleventyNavigation %}
       {% macro renderNavListItem(entry) -%}
         <li class="nav__item">
@@ -39,7 +39,7 @@
       <ul class="nav">
       {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
       </ul>
-    </nav>
+    </nav> #}
   </header>
   <section class="long">
     <header class="long__hed">
