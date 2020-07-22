@@ -41,12 +41,6 @@
     </nav> #}
   </header>
   <section class="long">
-
-    <header class="long__hed">
-      <h1 class="long__hed--title">{{ title }}</h1>
-    </header>
-    <article class="long__body">
-      {{content | safe }}
     <nav id="navigation" class="long__nav">
     {% set navPages = collections.all | eleventyNavigation %}
       {% include './_menu.svg.njk' %}
@@ -66,6 +60,12 @@
       {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
       </ul>
     </nav>
+
+    <header class="long__hed">
+      <h1 class="long__hed--title">{{ title }}</h1>
+    </header>
+    <article class="long__body">
+      {{content | safe }}
     </article>
 
   </section>
