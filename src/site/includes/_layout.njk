@@ -41,8 +41,10 @@
     </nav>
   </header>
   <section class="long">
-      <nav class="long__nav">
+      <nav id="navigation" class="long__nav">
     {% set navPages = collections.all | eleventyNavigation %}
+      {% include './_menu.svg.njk' %}
+
       {% macro renderNavListItem(entry) -%}
         <li class="long__nav--item">
           <a class="long__nav--item--link" href="{{ entry.url | url }}">{{ entry.title }}</a>

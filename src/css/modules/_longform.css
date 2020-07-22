@@ -5,10 +5,7 @@
   &__nav {
     line-height:1.41;
     font-size:16px;
-    padding: 12px;
-    margin-right: 18px;
-    background: white;
-    border-radius:2px;
+    margin: 0 0 0 -10px;
     a {
       &:link,
       &:visited {
@@ -16,15 +13,47 @@
         text-decoration: none;
       }
     }
+    > ul {
+      padding: 12px;
+      background: white;
+      border-radius:2px;
+      box-shadow: 0 0px 22px rgba(19,25,58,.2);
+  
+    }
     li {
       font-family:"Arthura-Black", Helvetica, sans-serif;
-      padding:2px 0 6px;
       li li {
         padding-left : 8px;
         font-family:"Arthura-Bold", Helvetica, sans-serif;
       }
     }
-    @media screen and (max-width:740px) {}
+    @media screen and (max-width:740px) {
+      height: 42px;
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      li ul {
+        max-height: 0;
+        overflow: hidden;
+      }
+      &.visible {
+        overflow: visible;
+        li ul {
+          max-height:100vh;
+        }
+      }
+      svg {
+        z-index: 2;
+        flex:0 0 24px;
+        margin-left: -24px;
+        fill: $brandDk;
+      }
+      ul {
+        flex: 0 1 100%;
+      }
+      li li  {
+        padding:6px 0 6px;
+      }
+    }
     @media screen and (min-width:740px) and (max-width:1200px) {}
     @media screen and (min-width:1200px) {}    
   }
@@ -40,7 +69,11 @@
     &__nav {
       grid-column:1;
       grid-row: 2;
+      margin-right:0 18px 0 0;
       box-shadow: -17px 0px 22px rgba(19,25,58,.2);
+      li {
+        padding:2px 0 6px;
+      }
     }
   }
 
