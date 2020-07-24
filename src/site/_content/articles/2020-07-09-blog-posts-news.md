@@ -3,7 +3,7 @@ title: Blog Posts/News
 eleventyNavigation:
   parent: Page and Content Types
   order: 0
-  key: blog-post
+  key: Blog/News Posts
 date: 2020-07-09T18:57:36.122Z
 ---
 Blog Post/News sections allows you to actively run a blog with attributions to authors that are time stamped. This section follows the same very simple content flows as many features of the homepage content with optional decks and main body content. To access the blog in the content management system, click on "Blog" in the lefthand navigation of the CMS homepage:
