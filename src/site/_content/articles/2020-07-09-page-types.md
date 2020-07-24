@@ -1,5 +1,5 @@
 ---
-title: Page Types/Internal Pages
+title: Pages and Platform Posts
 eleventyNavigation:
   parent: Page and Content Types
   order: 2
