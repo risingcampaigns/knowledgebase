@@ -45,9 +45,11 @@
       display: flex;
       flex-flow: row-reverse nowrap;
       align-items: center;
-      img {
+      img,
+      svg {
         max-height: 62px;
         margin-right: 8px;
+        fill: $white;
       }
     }
   }
