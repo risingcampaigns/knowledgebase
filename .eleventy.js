@@ -44,7 +44,8 @@ module.exports = function(config) {
     dir: {
       input: "src/site",
       output: "public",
-      includes: "includes"
+      includes: "includes",
+      data: '_content/data'
     },
     passthroughFileCopy: true,
     templateFormats: [ 'md', 'njk'],
