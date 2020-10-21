@@ -15,4 +15,4 @@ Common issues and how to solve them.
 
   * *Solution:* *This is likely a browser cache issue. Try clearing your cache and reload the page. If this does not fix the problem after 5 minutes, email support with a link to the backend URL of the page not populating as well as what browser and browser version you are using.* 
 
-    Ex. **Browser:** Chrome **Version:** 84.0.4147.89 **URL:** <https://docs.risingcampaigns.com/admin/#/collections/articles/entries/2020-07-09-troubleshooting>
+    Ex. **Browser:** Chrome **Version:** 84.0.4147.89 **URL:** 
