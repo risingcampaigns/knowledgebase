@@ -1,0 +1,13 @@
+---
+layout: _layout.njk
+title: Frequently Asked Questions
+subHed: 
+---
+{% if faqs.item %}
+<dl>
+  {% for item in faqs.item %}
+  <dt id ="{{ item.id }}">{{ item.hed }}</dt>
+  <dd>{{ item.dek }}</dd>
+  {% endfor %}
+</dl>
+{% endif %}
