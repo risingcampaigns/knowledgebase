@@ -3,7 +3,7 @@ title: Platform Posts
 eleventyNavigation:
   order: 0
   parent: Pages
-  key: "1"
+  key: platfrom posts
 date: 2020-11-09T14:21:55.375Z
 ---
 ### Platform/Issues Posts
