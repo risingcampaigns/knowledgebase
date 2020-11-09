@@ -26,10 +26,21 @@ Here is what the backend looks like:
 
 ![](/img/uploads/screen-shot-2020-07-17-at-1.34.59-pm.png)
 
-Things you will need to execute a blog:
+### Things you will need to execute a blog:
 
 * Title
-* Date
+* Date- You can back date the articles if they were created prior to launch of the site, this is helpful in a migration, but also helps keep thins in order if you want to sort publication by date posted. 
 * Author
+* Tags- You can tag any article based on topic in this setting, if you uses this section for blog and news you can label the articles as that and it will allow users to search for more of the same based on the tag. 
 * Image (Optional)
 * Social Share (Optional)
+
+### External URLS
+
+In Blog/News you will have the option to add an external URL to the post, this will take the user away to the URL you paste in this section. For example if you want to share a New York Time article simply paste that URL here and the user will be taken there. This action will override any content that may appear in the body text of the article configuration.
+
+### Adding a Deck
+
+Adding deck text is important to do for each article and page because it is text that search engines use when populating articles within search terms. By being diligent about adding in deck text for your Blog/News articles you will ensure more traffic based on the topic and will improve your overall SEO. 
+
+### Using Rich Text Editor and Markdown
