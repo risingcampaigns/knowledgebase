@@ -31,16 +31,6 @@
       "id": "https"
     },
     {
-      "dek": "Service Unavailable: A 503 error indicates that the web server is unable to process the request. When you get a 503 error, it could mean the server is undergoing maintenance, or is overloaded with requests. The best approach with the 503 error is to try again later.",
-      "id": "error",
-      "hed": "Error 503"
-    },
-    {
-      "dek": "Internal Server Error: The 500 is the most common server error, and like the 400 it’s a generic code that points to an unspecified problem. Whenever a server encounters a difficulty that prevents it from fulfilling a request and the issue is not one described by the other available server codes, the server generates a 500 error. Try reloading the page, clearing the cache, deleting cookies and restarting the browser.",
-      "hed": "Error 500",
-      "id": "error"
-    },
-    {
       "dek": "An Internet Protocol address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: host or network interface identification and location addressing.",
       "hed": "IP Address",
       "id": "ip"
@@ -79,6 +69,16 @@
       "dek": "\nMethod Not Allowed: The 405 error is less common and less easily defined than some others. Basically, a 405 error means that the server understands what the web browser is asking for, but is refusing to fulfill the request. A 405 error could be the result of an error in the website’s code or a faulty redirect.\n",
       "hed": "Error 405",
       "id": "error"
+    },
+    {
+      "dek": "Internal Server Error: The 500 is the most common server error, and like the 400 it’s a generic code that points to an unspecified problem. Whenever a server encounters a difficulty that prevents it from fulfilling a request and the issue is not one described by the other available server codes, the server generates a 500 error. Try reloading the page, clearing the cache, deleting cookies and restarting the browser.",
+      "hed": "Error 500",
+      "id": "error"
+    },
+    {
+      "dek": "Service Unavailable: A 503 error indicates that the web server is unable to process the request. When you get a 503 error, it could mean the server is undergoing maintenance, or is overloaded with requests. The best approach with the 503 error is to try again later.",
+      "id": "error",
+      "hed": "Error 503"
     }
   ],
   "hed": "Glossary of Terms"
