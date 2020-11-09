@@ -14,14 +14,24 @@
       "dek": "At Least 1800x1800 pixels."
     },
     {
-      "hed": "Will Rising Campaigns host our Website?",
-      "dek": "Yes, we host your website while providing support and maintenance for a year. Hosting support will be renewed automatically at $500 at the year anniversary of the site launch if the site is still live.",
+      "hed": "Will Rising Campaigns host our website?",
+      "dek": "Yes, we host your website while providing support and maintenance for a year. Hosting support will be renewed automatically at $1000 at the year anniversary of the site launch if the site is still live.",
       "id": "hosting"
     },
     {
       "hed": "What services do you integrate with?",
       "dek": "We currently integrate with ActBlue, Action Network, NGPVAN/EveryAction, and MailChimp. We do not have out the box integrations with Mobilize or Mobile Commons but can also use their form embed code or iframe. ",
       "id": "integrations"
+    },
+    {
+      "hed": "Where do I get help if I need it?",
+      "id": "help",
+      "dek": "Submit a ticket to help@risingcampaigns.com. Your ticket will be answered with 1-2 hours during the weekday over traditional business hours and with in 5-8 hours on the weekend. If your support request is more urgent, call 202-309-7182. "
+    },
+    {
+      "hed": "Can I post a video?",
+      "dek": "Yes, if you are using YouTube you can pull the embed code directly from the YouTube video you want to use in the share button. Once you have done that select the page you want the video to live on and be sure to toggle to Markdown in the Body block then simply paste the copied code in where you want it to display within the text. ",
+      "id": "video"
     }
   ]
 }
