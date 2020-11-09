@@ -25,3 +25,10 @@ You will also be able to access the media section on individual pages in the CMS
 4. Once you have uploaded the file, be sure to select the and then hit the "Choose Selected" button.
 
 ![](/img/uploads/content_manager-8-.png)
+
+Here are a few tips in providing the best user experience for your audience:
+
+1. Keep your file size small, if your file size above 4mb it's too big and will start to influence site load times for your users which could result in a high bounce rate. **Our recommended file size is 500k.**
+2. For the best image resolution we suggest that images be **1800px x 1800px.**
+3. Acceptable file types include: **jpg, jpeg, png, webp.**
+4. Our system automatically resizes your image for screen resolution so you don't need to worry how the image will look on mobile vs desktop if you follow the above recommendations.
