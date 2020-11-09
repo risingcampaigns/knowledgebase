@@ -43,4 +43,22 @@ In Blog/News you will have the option to add an external URL to the post, this w
 
 Adding deck text is important to do for each article and page because it is text that search engines use when populating articles within search terms. By being diligent about adding in deck text for your Blog/News articles you will ensure more traffic based on the topic and will improve your overall SEO. 
 
-### Using Rich Text Editor and Markdown
+### Using Rich Text Editor
+
+![](/img/uploads/screen-shot-2020-11-09-at-8.40.04-am.png)
+
+The Rich Text Editor allows you to add different types of text from **Bold** and *Italic* to different sizes of heading for your Body paragraph. The Rich Text Editor also allows for implementing bullets and numbered lists in addition to being able to add a code block and a block quote section. Finally by hitting the plus button you be able to add images to your post within the body block of the page. 
+
+![](/img/uploads/screen-shot-2020-11-09-at-8.43.58-am.png)
+
+### Using Markdown
+
+If you want to add in HTML code from YouTube or any other source that provide HTML code you will need to follow these steps:
+
+1. Before pasting any code snippet in, toggle this in the body options from Rich Text to Markdown.
+
+![](/img/uploads/screen-shot-2020-11-09-at-8.46.21-am.png)
+
+2. Once you have toggled over to Markdown you can now paste the code in and hit publish. 
+
+3. Wait roughly 1 minute and refresh the live version of the site to check and make sure the HTML snippet is displaying properly. If you paste in a video and the viewport is not responding properly, submit a ticket at help@risingcampaigns.com
