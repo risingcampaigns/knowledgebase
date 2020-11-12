@@ -8,7 +8,7 @@ date: 2020-07-09T18:59:42.375Z
 ---
 ## Page Types
 
-You can create a variety of different Page types in the Rising Campaigns platform. Any content block that requires its own URL and is not categorized by publish date can be considered a page. This includes basic content like Privacy Policies, organized content like your campaign's issues or platform, and more complex structured content including robust About Us pages with a mix of long form text and hierarchical components. In this section we will review all of the above.
+You can create a variety of different Page types in the Rising Campaigns platform. Any content block that requires its own URL and is not categorized by publish date can be considered a page. This includes basic content like Privacy Policies, organized content like your campaign's issues, and more complex structured content including robust pages with a mix of long form text, groups and kickers to branch more content or actions. In this section we will review all of the above.
 
 * #### Landing Pages
 
@@ -36,7 +36,7 @@ and appear this way on the frontend:
 
 * #### Embed Page
 
-  An embed page is designed to specifically house iframes and embed code. This page is built with a different layout to account for width and height of iframes and embeds from 3rd party sources. In most cases the embeddable iframe we get from 3rd party sources are not ideal sizes for all screen resolutions. In this page type we account for that by presetting setting an optimal height and width from the code you pasted in. 
+  An embed page is designed to specifically house iframes and embed code. This page is built with a different layout to account for width and height of iframes and embeds from 3rd party sources. In most cases the embeddable iframe we get from 3rd party sources are not ideal sizes for all screen resolutions. In this page type we account for that by presetting setting an optimal height and width from the code you pasted in. We built this page type option for iframes specifically from 3rd party organizations like [Mobilize](https://www.mobilize.us/) and [Speechifai](https://www.speechifai.tech/). 
 
 
 
