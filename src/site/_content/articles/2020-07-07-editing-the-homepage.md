@@ -19,7 +19,6 @@ Your Marquee is the first thing most site visitors will see when they visit your
 
 > **Tip:** Keep the text short here, so folks scroll through the rest of the site sections.
 
-
 The Marquee is accessible from the Admin portal by clicking **Homepage** on the left-side navigation, then **Marquee**. To edit the Marquee, select the box as shown with the red square below.
 
 ![](https://lh3.googleusercontent.com/eBC8tP1HGl31yWDKrkMWM9lJ9WVt57-9NU-mxHUihPEK45juMsLDFh41b7zJZClgSNEWGZtjKd_EbOIVzo5XXmbXu7Qeq2LFBP4ki5lZDrBsiLbqM0biGrFfYobirbS-dDUSE-yR)
@@ -27,7 +26,6 @@ The Marquee is accessible from the Admin portal by clicking **Homepage** on the 
 Once you have selected Marquee you will get the content options, which look like the following:
 
 ![](https://lh6.googleusercontent.com/p4Q6noaJICRFJPJuT9b_HXS1S2pd0qjPiuvC2bBq_N4qN0anf-KApvrRUTvQga7xr7yoWwOm0505Xdkfb5Pj8C-IJxTdmlH9ypS0D61b2bTDJrYCgA5_inWM8HR71MxEX4z-YEK_)
-
 
 From here, you will need to do the following:
 
@@ -93,7 +91,6 @@ The user will be taken to the NGPVAN/EveryAction for to complete their donation 
 
 Rising Campaigns integrates with a variety of Commercial and Progressive Contact Relationship Managers (CRMs) such as MailChimp, The Action Network, and NGPVAN/EveryAction. Embeddable form code can be found where your organization creates them in the CRM. Once you have that code, simple place that code in the Body section of any page and your styled form will be created.
 
-
 ## Promotional Kickers
 
 Promotion kickers allow you to place blocks of content that take the user to a new page whether it is information or action related is up to you. Kickers are a nice way to drive important action. Promotional Kickers are accessible from the Admin Portal by clicking **Homepage** on the left-side navigation, then **Promotion kickers**. To add or edit Promotion kickers, select the box as shown with the red square below.
@@ -122,3 +119,11 @@ What will you need to for a promotional kicker?
 Here is a sample Promotional Kicker section:
 
 ![](/img/uploads/screen-shot-2020-07-17-at-2.21.13-pm.png)
+
+### Modal Content
+
+Modal boxes allow the user to create an entry point to the site that highlights an action whether it be a donation or a sign-up form. The user will have the ability to take the action or continue to the site. What is unique about this feature is that we allow you to set how long the a single user will be cookied for once they see the modal box for the first time. If your action is urgent you can set this to 0 days and every time that user visits the site they will get the modal. If your action is less time sensitive, you can set it to add more days before they user sees the modal again. 
+
+In a modal setup you will have the ability to publish or un-publish simply by selecting a toggle at the top. You also have the ability to add a donation form with selected amounts just like you would have done it for the main donation page/section. We also allow for users to embed video code directly into the body section of the modal. (Pro-tip, be sure to toggle to Markdown for Rich Text if you are embedding code). 
+
+![](/img/uploads/content-manager-modal.png)
