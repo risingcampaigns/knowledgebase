@@ -32,6 +32,11 @@
       "hed": "Can I post a video?",
       "dek": "Yes, if you are using YouTube you can pull the embed code directly from the YouTube video you want to use in the share button. Once you have done that select the page you want the video to live on and be sure to toggle to Markdown in the Body block then simply paste the copied code in where you want it to display within the text. ",
       "id": "video"
+    },
+    {
+      "hed": "Why is my embed not working?",
+      "id": "embed",
+      "dek": "The likely reason is that you didn't toggle to Markdown in the content editor before you pasted in the code.  Try deleting the code, save, then toggle to Markdown and paste the code again before hitting publish. If this doesn't solve it, contact help@risingcampaigns.com. "
     }
   ]
 }
