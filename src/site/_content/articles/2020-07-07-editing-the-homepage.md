@@ -127,3 +127,22 @@ Modal boxes allow the user to create an entry point to the site that highlights 
 In a modal setup you will have the ability to publish or un-publish simply by selecting a toggle at the top. You also have the ability to add a donation form with selected amounts just like you would have done it for the main donation page/section. We also allow for users to embed video code directly into the body section of the modal. (Pro-tip, be sure to toggle to Markdown for Rich Text if you are embedding code). 
 
 ![](/img/uploads/content-manager-modal.png)
+
+
+
+### Content Order
+
+To edit the content order follow these steps:
+
+1. Login to the backend
+2. Select Homepage in the left navigation
+3. Select Content Order in the middle navigation
+4. To change the order or add content select the drop downs for the content block. 
+
+![](https://lh3.googleusercontent.com/xqrNCQJiQ_HpFodsP3eKPzvF1J2CrvPLFJ7uTTuiJPhHMW_kZY7QyUUSHL6Eb8dATPqeCvfMEu81v-vNwqEPDNciGQO0gYFQFpsdxUaEWaT_HOjSM5izhhIy_DfcskD9YXo3DZas)
+
+5. Once you have selected the drop down you will have the option to re-order the content any way you want including to hide the content entirely. 
+
+
+
+(Of note, the content order is everything after the Marquee. The Marquee will always start the page followed by the number ordered content blocks.)
