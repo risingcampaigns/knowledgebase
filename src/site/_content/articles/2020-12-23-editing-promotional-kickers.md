@@ -2,8 +2,8 @@
 title: Editing Promotional Kickers
 eleventyNavigation:
   order: 5
-  parent: Editing the Homepage
-  key: Editing Promotional Kickers
+  parent: Homepage
+  key: Creating and Editing Promotional Kickers
 date: 2020-12-23T14:20:33.530Z
 ---
 ## Promotional Kickers

@@ -1,7 +1,7 @@
 ---
 title: Editing the Homepage
 eleventyNavigation:
-  parent: ""
+  parent: Articles
   key: Homepage
   order: 3
 date: 2020-07-07T19:24:35.460Z

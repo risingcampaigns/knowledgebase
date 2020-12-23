@@ -2,8 +2,8 @@
 title: "Editing Content Order "
 eleventyNavigation:
   order: 7
-  key: "Editing Content Order "
-  parent: Editing the Homepage
+  key: "Changing Content Order on the Homepage"
+  parent: Homepage
 date: 2020-12-23T14:23:37.332Z
 ---
 ### Content Order

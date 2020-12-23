@@ -2,7 +2,7 @@
 title: "Editing Donation on the Homepage "
 eleventyNavigation:
   order: 3
-  parent: Editing the Homepage
+  parent: Homepage
   key: "Editing Donation on the Homepage "
 date: 2020-12-23T14:16:51.819Z
 ---

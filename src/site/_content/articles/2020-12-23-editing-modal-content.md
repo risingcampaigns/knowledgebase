@@ -2,8 +2,8 @@
 title: Editing Modal Content
 eleventyNavigation:
   order: 6
-  parent: Editing the Homepage
-  key: Editing Modal Content
+  parent: Homepage
+  key: Managing Modal Content
 date: 2020-12-23T14:21:47.655Z
 ---
 ### Modal Content

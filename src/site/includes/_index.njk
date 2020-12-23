@@ -56,7 +56,7 @@
     </header>
     <article class="long__body">
       {{content | safe }}
-  {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({ showExcerpt: true }) | safe }}
+      {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({ showExcerpt: true }) | safe }}
     </article>
   </section>
   <script src="/js/main.js" async></script>

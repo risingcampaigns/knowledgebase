@@ -2,7 +2,7 @@
 title: "Editing the Supplemental "
 eleventyNavigation:
   order: 2
-  parent: Editing the Homepage
+  parent: Homepage
   key: "Editing the Supplemental "
 date: 2020-12-23T14:15:22.282Z
 ---

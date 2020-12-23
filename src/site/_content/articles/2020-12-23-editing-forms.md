@@ -2,8 +2,8 @@
 title: Editing Forms
 eleventyNavigation:
   order: 4
-  parent: Editing the Homepage
-  key: Editing Forms
+  parent: Articles
+  key: Working with Forms
 date: 2020-12-23T14:19:39.312Z
 ---
 ### Forms

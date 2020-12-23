@@ -31,7 +31,7 @@ module.exports = function(config) {
   config.setDynamicPermalinks(true);
   // Filter source file names using a glob
   config.addCollection("articles", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("_Content/articles/*.md");
+    return collectionApi.getFilteredByGlob("_content/articles/*.md");
   });
 
 
