@@ -62,7 +62,8 @@
             flex: 0 1 100%;
             padding: 15px;
             background:$white;
-            border: 1.5px solid $brandLt;
+            box-shadow: 0 0 17px rgba(19,25,58,.2);
+            /* border: 1.5px solid $brandLt; */
             border-radius:3px;
             font-family:"Arthura-Light", Helvetica, sans-serif;
             line-height:1.61;
