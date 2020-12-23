@@ -6,7 +6,11 @@ a {
   &:link,
   &:visited {
     color: $brandDk;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $attn;
+    text-shadow: 2px 2px $brandDk, 4px 4px $brandDk;
   }
 }
 .long__body,
