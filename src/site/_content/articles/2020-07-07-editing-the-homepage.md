@@ -1,7 +1,7 @@
 ---
 title: Editing the Homepage
 eleventyNavigation:
-  parent: Getting Started
+  parent: Editing the Homepage
   key: Editing the Homepage
   order: 3
 date: 2020-07-07T19:24:35.460Z
