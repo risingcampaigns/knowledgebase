@@ -3,7 +3,7 @@ title: Editing the Homepage
 eleventyNavigation:
   parent: ""
   key: Editing the Homepage
-  order: 3
+  order: 2
 date: 2020-07-07T19:24:35.460Z
 thumbnail: /img/uploads/logo-blue_on_transparent.png
 ---
