@@ -2,6 +2,13 @@
   overflow-x: hidden;
   color: $brandDk;
 }
+a {
+  &:link,
+  &:visited {
+    color: $brandDk;
+    text-decoration: underline;
+  }
+}
 .long__body,
 .long__hed {
   p {

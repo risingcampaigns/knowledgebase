@@ -50,14 +50,14 @@
       </ul>
     </nav> #}
   </header>
-  <section class="long">
-    <header class="long__hed">
-      <h2 class="long__hed--title">{{ title }}</h2>
+  <section class="cards">
+    <header class="cards__hed">
+      <h2 class="cards__hed--title">{{ title }}</h2>
+      <div class="cards__hed--sub">      {{content | safe }}</div>
     </header>
-    <article class="long__body">
-      {{content | safe }}
+    <nav class="cards__body">
       {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({ showExcerpt: true }) | safe }}
-    </article>
+    </nav>
   </section>
   <script src="/js/main.js" async></script>
 </body>

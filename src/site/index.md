@@ -1,5 +1,5 @@
 ---
-layout: _layout.njk
+layout: _index.njk
 title: Welcome to Rising Campaigns
 subHed: 
 ---
