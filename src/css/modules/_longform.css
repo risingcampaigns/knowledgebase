@@ -18,6 +18,9 @@
       background: white;
       border-radius:2px;
       box-shadow: 0 0px 22px rgba(19,25,58,.2);
+      &.nav {
+        flex-direction: column;
+      }
     }
     li {
       font-family:"Arthura-Black", Helvetica, sans-serif;
