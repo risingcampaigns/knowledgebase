@@ -3,7 +3,7 @@ title: Editing the Marquee
 eleventyNavigation:
   order: 1
   parent: Editing the Homepage
-  key: Marquee
+  key: Editing the Marquee
 date: 2020-12-23T14:10:22.228Z
 ---
 ### Marquee
