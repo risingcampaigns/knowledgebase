@@ -17,35 +17,20 @@ Your Marquee is the first thing most site visitors will see when they visit your
 
 **[Learn more about editing the marquee](https://docs.risingcampaigns.com/articles/editing-the-marquee/)**
 
-## Supplemental
+### Supplemental
 
 The Supplemental section is where you can expand on your campaign. This is a great section to expand on messaging, introduce your candidate, or tell your campaign's story. 
 
 **[Learn more about editing the Supplemental Section](https://docs.risingcampaigns.com/articles/editing-the-supplmenetal/)**
 
-## Donations
+### Donations
 
 If your organization accepts donations, we use an ActBlue and NGPVAN/EveryAction embeds to power our donation forms. We’ll simply need a link to your ActBlue/EA Form and to populate the donation amount in the Admin Portal. Here is an example of what a donation form looks like:
 
-### **ActBlue**
+#### [ActBlue](/articles/editing-donation-on-the-homepage/#actblue)
 
-ActBlue Donation requires the URL of the ActBlue form and matching donation amounts. Here is a sample of the front end and what you see in the Admin Portal:
 
-  ![](/img/uploads/screen-shot-2020-07-17-at-1.52.35-pm.png)
-
-  ![](/img/uploads/content_manager-3-.png)
-
-  The user will be taken to the ActBlue for to complete their donation but the amount the user selected will be pre-populated. 
-
-### NGPVAN/EveryAction
-
-NGPVAN/EveryAction donation requires the URL of the EveryAction form and matching donation amounts. Here is a sample of the front end and what you see on the backend:
-
-  ![](/img/uploads/screen-shot-2020-07-17-at-1.52.35-pm.png)
-
-  ![](/img/uploads/content_manager-2-.png)
-
-The user will be taken to the NGPVAN/EveryAction for to complete their donation but the amount the user selected will be pre-populated. Through this integration we can also turn on form pre-fill if your users are cookied into NGPVAN/EveryAction Fast Pass system. 
+#### [NGPVAN EveryAction](/articles/editing-donation-on-the-homepage/#ngpvan-everyaction)
 
 ## Forms
 
