@@ -9,8 +9,8 @@ a {
     text-decoration: none;
   }
   &:hover {
-    color: $attn;
-    text-shadow: 2px 2px $brandDk, 4px 4px $brandDk;
+    color: $brandDk;
+    text-shadow: 2px 2px $attn;
   }
 }
 .long__body,
