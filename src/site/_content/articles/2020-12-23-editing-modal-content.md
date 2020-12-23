@@ -4,9 +4,8 @@ eleventyNavigation:
   order: 6
   parent: Homepage
   key: Managing Modal Content
+  excerpt: Learn how to present modal content, also referred to as overlay or pop-up boxes.
 date: 2020-12-23T14:21:47.655Z
-dek: Learn how to present modal content, also referred to as overlay or pop-up
-  boxes.
 ---
 ### Modal Content
 
