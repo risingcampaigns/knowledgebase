@@ -29,33 +29,16 @@ If your organization accepts donations, we use an ActBlue and NGPVAN/EveryAction
 
 #### [ActBlue](/articles/editing-donation-on-the-homepage/#actblue)
 
-
 #### [NGPVAN EveryAction](/articles/editing-donation-on-the-homepage/#ngpvan-everyaction)
 
 ## Promotional Kickers
 
 Promotion kickers allow you to place blocks of content that take the user to a new page whether it is information or action related is up to you. Kickers are a nice way to drive important action. Promotional Kickers are accessible from the Admin Portal by clicking **Homepage** on the left-side navigation, then **Promotion kickers**. To add or edit Promotion kickers, select the box as shown with the red square below.
 
-
 ### Modal Content
 
 Modal boxes allow the user to create an entry point to the site that highlights an action whether it be a donation or a sign-up form. The user will have the ability to take the action or continue to the site. What is unique about this feature is that we allow you to set how long the a single user will be cookied for once they see the modal box for the first time. If your action is urgent you can set this to 0 days and every time that user visits the site they will get the modal. If your action is less time sensitive, you can set it to add more days before they user sees the modal again. 
 
-In a modal setup you will have the ability to publish or un-publish simply by selecting a toggle at the top. You also have the ability to add a donation form with selected amounts just like you would have done it for the main donation page/section. We also allow for users to embed video code directly into the body section of the modal. (Pro-tip, be sure to toggle to Markdown for Rich Text if you are embedding code). 
-
-![](/img/uploads/content-manager-modal.png)
-
 ### Content Order
 
-To edit the content order follow these steps:
-
-1. Login to the backend
-2. Select Homepage in the left navigation
-3. Select Content Order in the middle navigation
-4. To change the order or add content select the drop downs for the content block. 
-
-![](https://lh3.googleusercontent.com/xqrNCQJiQ_HpFodsP3eKPzvF1J2CrvPLFJ7uTTuiJPhHMW_kZY7QyUUSHL6Eb8dATPqeCvfMEu81v-vNwqEPDNciGQO0gYFQFpsdxUaEWaT_HOjSM5izhhIy_DfcskD9YXo3DZas)
-
-5. Once you have selected the drop down you will have the option to re-order the content any way you want including to hide the content entirely. 
-
-(Of note, the content order is everything after the Marquee. The Marquee will always start the page followed by the number ordered content blocks.)
+With a Rising Campaigns site we make adjusting the content order of your site very simple which can be an edge when as the needs of your campaign evolve learn more about how to edit the content order here.
