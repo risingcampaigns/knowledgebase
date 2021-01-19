@@ -47,9 +47,13 @@
       align-items: center;
       img,
       svg {
+        width: 24px;
         max-height: 62px;
         margin-right: 8px;
         fill: $white;
+        @media screen and (min-width:740px) {
+          width: 38px;
+        }
       }
     }
   }
