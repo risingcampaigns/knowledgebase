@@ -12,13 +12,11 @@ You can create a variety of different Page types in the Rising Campaigns platfor
 
 * #### Landing Pages
 
-  Landing Pages are the most complex pages of the page types but will likely be the most used page type by default so you can always expand on your content if needed. These pages have the ability to have the standard features of a deck, image, and body but can also host promotional kickers specific to that page title to push actions and it can also provide the ability to have groups. The groups function allows for the content creator to provide endorsements, staff bios, or individual information on elected officials and many more options. 
+  Landing Pages are the most flexible, expandable, and most used of the page types. These pages have the ability to have the standard features of a deck, image, and body but can also host promotional kickers specific to that page title to push actions and it can also provide the ability to have groups. The groups function allows for the content creator to provide endorsements, staff bios, or individual information on elected officials and many more options. 
 
   Backend:
 
-  ![](/img/uploads/content-manager.png)
-
-
+  ![](/img/uploads/screen-shot-2021-01-22-at-3.18.43-pm.png)
 
   Frontend:
 
@@ -26,35 +24,17 @@ You can create a variety of different Page types in the Rising Campaigns platfor
 
 
 
-* #### Basic Pages
-
-  Basic Pages are the simplest form of a page setup and comes with a title, deck, and body. Typically these pages are used for the Privacy Policy but can also be used as a page that just holds text.
-
-  Backend:
-
-![](/img/uploads/content-manager-basic.png)
-
-Frontend:
-
-![](/img/uploads/meet-our-candidate.png)
-
 * #### Embed Page
 
   An embed page is designed to specifically house iframes and embed code. This page is built with a different layout to account for width and height of iframes and embeds from 3rd party sources. In most cases the embeddable iframe we get from 3rd party sources are not ideal sizes for all screen resolutions. In this page type we account for that by presetting setting an optimal height and width from the code you pasted in. We built this page type option for iframes specifically from 3rd party organizations like [Mobilize](https://www.mobilize.us/) and [Speechifai](https://www.speechifai.tech/). 
 
   Backend:
 
-  ![](/img/uploads/content-manager-mobilize.png)
+  ![](/img/uploads/screen-shot-2021-01-22-at-3.18.54-pm.png)
 
   Frontend:
 
   ![](/img/uploads/mobilize.png)
-
-
-
-
-
-
 
 ### How to select a page type:
 
@@ -65,11 +45,9 @@ Frontend:
 
 *3.* Once you are in the new page setting you will see a drop down that will allow you to select a page type:
 
-![](/img/uploads/screen-shot-2020-11-09-at-8.59.22-am.png)
+![](/img/uploads/screen-shot-2021-01-22-at-3.18.43-pm.png)
 
-With the following options:
 
-![](/img/uploads/screen-shot-2020-11-09-at-9.03.03-am.png)
 
 ### **Standard Page Functions:**
 
