@@ -12,7 +12,7 @@ You can create a variety of different Page types in the Rising Campaigns platfor
 
 * #### Landing Pages
 
-  Landing Pages are the most flexible, expandable, and most used of the page types. These pages have the ability to have the standard features of a deck, image, and body but can also host promotional kickers specific to that page title to push actions and it can also provide the ability to have groups. The groups function allows for the content creator to provide endorsements, staff bios, or individual information on elected officials and many more options. 
+  Landing Pages are the most flexible, expandable, and most used of the page types. These pages have the ability to have the standard features of a deck, image, and body but can also host [promotional kickers](http://docs.risingcampaigs.com/editing-promotional-kickers) specific to that page title to push actions and it can also provide the ability to have groups. The groups function allows for the content creator to provide endorsements, staff bios, or individual information on elected officials and many more options. 
 
   Backend:
 
@@ -21,9 +21,6 @@ You can create a variety of different Page types in the Rising Campaigns platfor
   Frontend:
 
   ![](/img/uploads/landing-page.png)
-
-
-
 * #### Embed Page
 
   An embed page is designed to specifically house iframes and embed code. This page is built with a different layout to account for width and height of iframes and embeds from 3rd party sources. In most cases the embeddable iframe we get from 3rd party sources are not ideal sizes for all screen resolutions. In this page type we account for that by presetting setting an optimal height and width from the code you pasted in. We built this page type option for iframes specifically from 3rd party organizations like [Mobilize](https://www.mobilize.us/) and [Speechifai](https://www.speechifai.tech/). 
@@ -46,8 +43,6 @@ You can create a variety of different Page types in the Rising Campaigns platfor
 *3.* Once you are in the new page setting you will see a drop down that will allow you to select a page type:
 
 ![](/img/uploads/screen-shot-2021-01-22-at-3.18.43-pm.png)
-
-
 
 ### **Standard Page Functions:**
 
