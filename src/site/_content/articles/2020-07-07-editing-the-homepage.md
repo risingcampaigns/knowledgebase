@@ -3,7 +3,7 @@ title: Editing the Homepage
 eleventyNavigation:
   parent: Articles
   key: Homepage
-  order: 3
+  order: 1
 date: 2020-07-07T19:24:35.460Z
 thumbnail: /img/uploads/logo-blue_on_transparent.png
 ---
@@ -35,10 +35,16 @@ If your organization accepts donations, we use an ActBlue and NGPVAN/EveryAction
 
 Promotion kickers allow you to place blocks of content that take the user to a new page whether it is information or action related is up to you. Kickers are a nice way to drive important action. Promotional Kickers are accessible from the Admin Portal by clicking **Homepage** on the left-side navigation, then **Promotion kickers**. To add or edit Promotion kickers, select the box as shown with the red square below.
 
+[Learn more about editing Promotional Kickers.](https://docs.risingcampaigns.com/articles/editing-the-promotional-kickers/)
+
 ### Modal Content
 
-Modal boxes allow the user to create an entry point to the site that highlights an action whether it be a donation or a sign-up form. The user will have the ability to take the action or continue to the site. What is unique about this feature is that we allow you to set how long the a single user will be cookied for once they see the modal box for the first time. If your action is urgent you can set this to 0 days and every time that user visits the site they will get the modal. If your action is less time sensitive, you can set it to add more days before they user sees the modal again. 
+Modal boxes allow the user to create an entry point to the site that highlights an action whether it be a donation or a sign-up form. The user will have the ability to take the action or continue to the site. What is unique about this feature is that we allow you to set how long the a single user will be cookied for once they see the modal box for the first time. If your action is urgent you can set this to 0 days and every time that user visits the site they will get the modal. If your action is less time sensitive, you can set it to add more days before they user sees the modal again. [](https://docs.risingcampaigns.com/articles/editing-modal-content/)
+
+[Learn more about editing Modal Content.](https://docs.risingcampaigns.com/articles/editing-modal-content/)
 
 ### Content Order
 
 With a Rising Campaigns site we make adjusting the content order of your site very simple which can be an edge when as the needs of your campaign evolve learn more about how to edit the content order here.
+
+[Learn more about content order.](https://docs.risingcampaigns.com/articles/editing-content-order/)
