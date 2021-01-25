@@ -19,7 +19,7 @@ collections:
         widget: "object"
         fields:
           # - { label: "parent", name: "parent", widget: "hidden", default: 'Articles' }
-          - { label: "Parent Page", name: "parent", widget: "relation", collection: 'articles', default: "Articles", search_fields: ["title"], value_field: "eleventyNavigation: title", display_fields: ["title"], required: false }
+          - { label: "Parent Page", name: "parent", widget: "relation", collection: 'articles', default: "Articles", search_fields: ["title"], value_field: "eleventyNavigation: key", display_fields: ["title"], required: false }
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
           - { label: "Excerpt", name: "excerpt", widget: "text", default: 0, required: false }
