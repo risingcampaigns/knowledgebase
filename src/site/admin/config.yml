@@ -18,7 +18,7 @@ collections:
         widget: "object"
         fields:
           # - { label: "parent", name: "parent", widget: "hidden", default: 'Articles' }
-          - { label: "Parent Page", name: "parent", widget: "relation", collection: 'articles', searchFields: ["title"], valueField: "slug", displayField: ["title"], required: false }
+          - { label: "Parent Page", name: "parent", widget: "relation", collection: 'articles', searchFields: ["title"], valueField: "key", displayField: ["title"], required: false }
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
           - { label: "Excerpt", name: "excerpt", widget: "text", default: 0, required: false }
