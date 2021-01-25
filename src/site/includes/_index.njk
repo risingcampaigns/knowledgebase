@@ -56,23 +56,18 @@
       <div class="cards__hed--sub">      {{content | safe }}</div>
     </header>
     <nav class="cards__body">
-      {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({ showExcerpt: true }) | safe }}
+      {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({
+          listElement: "ul",            
+          listItemElement: "li", 
 
-{# {% set navPages = collections.all | eleventyNavigation %}
-{% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
-  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-{%- if entry.children.length -%}
-  <ul>
-    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-  </ul>
-{%- endif -%}
-</li>
-{%- endmacro %}
+          listClass: "cards__list",
+          listItemClass: "cards__list--item", 
+          listItemHasChildrenClass: "cards__children",
+          activeListItemClass: "active",
+          anchorClass: "cards__list--link", 
 
-<ul>
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-</ul> #}
+          showExcerpt: true
+      }) | safe }}
 
     </nav>
   </section>
