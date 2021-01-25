@@ -2,7 +2,7 @@
 title: Editing the Supplemental Section
 eleventyNavigation:
   order: 2
-  parent: Editing the Homepage
+  parent: Getting Started
   key: "Editing the Supplemental "
   excerpt: Expand the narrative of your story in the Homepage Supplemental Section.
 date: 2020-12-23T14:15:22.282Z
