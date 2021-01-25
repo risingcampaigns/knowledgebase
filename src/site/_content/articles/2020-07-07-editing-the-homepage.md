@@ -1,7 +1,7 @@
 ---
 title: Editing the Homepage
 eleventyNavigation:
-  parent: Getting Started
+  parent: Articles
   key: Homepage
   order: 1
   excerpt: A visitors primary gateway to your website. Learn about the homepage
