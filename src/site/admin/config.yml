@@ -10,13 +10,26 @@ collections:
   - name: navigation
     label: Article Nav
     files: 
-      - file: src/site/data/navigation.json
+      - file: src/site/_content/data/navigation.json
         name: nav
         label: nav items
         widget: list
-        fields: 
-        - { label: item, name: item nav name, widget: string }
-        - { label: "Value", name: "parent", widget: "relation", collection: 'articles', default: "Articles", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false }
+        fields:
+          - {label: "Title", name: "kick_title", widget: "string"}
+          - {label: "Deck", name: "kick_dek", widget: "text", required: false}
+          - {label: "Kicker Image", name: "kick_img", widget: "image", required: false}
+          - label: Action Links
+            name: kick_links
+            widget: list
+            max: 3
+            fields:
+              - label: Link
+                name: "link"
+                widget: "object"
+                fields:
+                  - {label: Label, name: kick_label, default: "Take Action", widget: string}
+                  - {label: External Link, name: kick_path, widget: string, required: false}
+                  - {label: Link To Page, name: kick_link, widget: relation, collection: 'pages', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false} 
 
   - name: "articles" # Used in routes, e.g., /admin/collections/blog
     label: "Articles" # Used in the UI
