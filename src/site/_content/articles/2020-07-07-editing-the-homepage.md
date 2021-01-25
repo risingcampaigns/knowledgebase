@@ -4,6 +4,8 @@ eleventyNavigation:
   parent: Articles
   key: Homepage
   order: 1
+  excerpt: A visitors primary gateway to your website. Learn about the homepage
+    parts, how to create content, and change priorities.
 date: 2020-07-07T19:24:35.460Z
 thumbnail: /img/uploads/logo-blue_on_transparent.png
 ---
