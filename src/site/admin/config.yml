@@ -13,6 +13,7 @@ collections:
       - file: src/site/data/navigation.json
         name: nav
         label: nav items
+        widget: list
         fields: 
         - { label: item, name: item nav name, widget: string }
         - { label: "Value", name: "parent", widget: "relation", collection: 'articles', default: "Articles", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false }
