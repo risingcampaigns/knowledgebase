@@ -1,7 +1,7 @@
 ---
 title: Editing the Marquee
 eleventyNavigation:
-  order: 1
+  order: 0
   parent: Editing the Homepage
   key: Editing the Marquee
   excerpt: Learn about the options for editing first thing most visitors see when
