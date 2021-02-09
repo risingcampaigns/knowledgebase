@@ -30,12 +30,8 @@ collections:
                     name: childe_item
                     widget: list
                     fields:  
-                    - label: Link
-                      name: item
-                      widget: "object"
-                      fields:
-                        - {label: Title, name: title, default: "Take Action", widget: string}
-                        - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false}
+                    - {label: Title, name: title, default: "Take Action", widget: string}
+                    - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false}
 
   - name: "articles" # Used in routes, e.g., /admin/collections/blog
     label: "Articles" # Used in the UI
