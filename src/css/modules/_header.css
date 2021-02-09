@@ -45,6 +45,9 @@
       display: flex;
       flex-flow: row-reverse nowrap;
       align-items: center;
+      a:hover {
+        text-shadow: none;
+      }
       img,
       svg {
         width: 24px;
