@@ -97,6 +97,7 @@
       }            
     }
     &--dek {
+      max-width: 564px;
       font-family: "Arthura-Light",Helvetica,sans-serif;
       line-height: 1.61;
       font-size: 18px;

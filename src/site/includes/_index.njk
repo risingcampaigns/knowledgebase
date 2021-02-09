@@ -62,6 +62,9 @@
           <li class="cards__list--item">
             <a class="cards__list--link" href="/articles/{{ nav_item.link | slug }}">
               <h3 class="cards__list--title">{{nav_item.title}}</h3>
+              {% if nav_item.dek %}
+                <p class="cards__parent--dek">{{nav_item.dek}}</p>
+              {% endif %}
             </a>
           </li>
           {% if nav_item.childe_item %}
