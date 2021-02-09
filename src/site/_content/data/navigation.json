@@ -2,7 +2,7 @@
   "nav_items": [
     {
       "title": "Getting Started",
-      "link": "2020-07-07-logging-in",
+      "link": "Getting Started",
       "childe_item": [
         {
           "title": "Uploading/Managing Media Assets",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Editing The Homepage",
-      "link": "editing-the-homepage",
+      "link": "Editing the Homepage",
       "childe_item": [
         {
           "title": "Homepage Marquee",
@@ -46,7 +46,7 @@
     },
     {
       "title": "Page and Content Types",
-      "link": "2020-07-15-page-and-content-types",
+      "link": "Pages",
       "childe_item": [
         {
           "title": "Standard Pages",
@@ -64,23 +64,19 @@
     },
     {
       "title": "Settings",
-      "link": "2020-07-09-settings"
+      "link": "Settings"
     },
     {
       "title": "Working With Forms",
-      "link": "2020-12-23-editing-forms"
+      "link": "Editing Forms"
     },
     {
       "title": "Troubleshooting",
-      "link": "2020-07-09-troubleshooting"
+      "link": "Troubleshooting"
     },
     {
       "title": "Integrations",
-      "link": "2020-07-09-integrations"
-    },
-    {
-      "title": "Take Action",
-      "link": "2020-07-09-page-types"
+      "link": "Integrations"
     }
   ]
 }
