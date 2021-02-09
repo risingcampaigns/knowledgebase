@@ -18,12 +18,13 @@ collections:
           - label: Nav Links
             name: nav_items
             widget: list
-            max: 3
+            # max: 3
             fields:
               - {label: Title, name: title, default: "Take Action", widget: string}
               - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false}
               - label: child_item
                 name: childe_item
+                required: false
                 widget: list
                 fields:  
                 - {label: Title, name: title, default: "Take Action", widget: string}
