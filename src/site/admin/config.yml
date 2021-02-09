@@ -20,7 +20,7 @@ collections:
             # max: 3
             fields:
               - {label: Title, name: title, default: "Take Action", widget: string}
-              - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false}
+              - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{title | slug}}', displayFields: ['title'], required: false}
               - label: child_item
                 name: childe_item
                 required: false
