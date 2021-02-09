@@ -39,54 +39,62 @@
   &__body {
     flex: 0 0 100%;
     ul {
-      width: 100%;
       li {
-        font-family:"Arthura-Light", Helvetica, sans-serif;
-        line-height:1.61;
-        font-size:18px;
       }
       > li {
-        margin-top: 25px;
-        font-family:"Arthura-Light", Helvetica, sans-serif;
-        line-height:1.61;
-        font-size:18px;
         > a {
-          font-family:"Arthura-Black", Helvetica, sans-serif;
-          line-height:1.12;
-          @media screen and (max-width:740px) {
-            font-size:22px;
-          }
-          @media screen and (min-width:740px) {
-            font-size:39px;
-          }
         }
         > ul {
-          display: flex;
-          flex-flow: row wrap;
-          align-items: stretch;
-          justify-content: flex-start; 
-          li {
-            flex: 0 1 100%;
-            padding: 15px;
-            background:$white;
-            box-shadow: 0 0 17px rgba(19,25,58,.2);
-            /* border: 1.5px solid $brandLt; */
-            border-radius:3px;
-            @media screen and (min-width:740px) {
-              flex: 0 1 29%;
-              margin-right:1%;
-            }
-            a {
-              font-family:"Arthura-Black", Helvetica, sans-serif;
-              line-height:1.41;
-              font-size:18px;
-              @media screen and (min-width:740px) {
-                font-size:21px;
-              }            
-            }
-          }     
         }
       }     
     }
+  }
+  &__list {
+    width: 100%;
+    &--item {
+      margin-top: 25px;
+      font-family:"Arthura-Light", Helvetica, sans-serif;
+      line-height:1.61;
+      font-size:18px;
+    }
+    &--link {
+      font-family:"Arthura-Black", Helvetica, sans-serif;
+      line-height:1.12;
+      @media screen and (max-width:740px) {
+        font-size:22px;
+      }
+      @media screen and (min-width:740px) {
+        font-size:39px;
+      }
+    }
+  }
+  &__parent {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: flex-start; 
+    &--child {
+      flex: 0 1 100%;
+      margin-top: 25px;
+      padding: 15px;
+      background:$white;
+      box-shadow: 0 0 17px rgba(19,25,58,.2);
+      /* border: 1.5px solid $brandLt; */
+      border-radius:3px;
+      @media screen and (min-width:740px) {
+        flex: 0 1 29%;
+        margin-right:1%;
+      }
+      a {
+        font-family:"Arthura-Black", Helvetica, sans-serif;
+        line-height:1.41;
+        font-size:18px;
+        @media screen and (min-width:740px) {
+          font-size:21px;
+        }            
+      }
+    }
+    /* &--child {
+    } */
   }
 }

@@ -53,7 +53,7 @@
   <section class="cards">
     <header class="cards__hed">
       <h2 class="cards__hed--title">{{ title }}</h2>
-      <div class="cards__hed--sub">      {{content | safe }}</div>
+      <div class="cards__hed--sub">{{content | safe }}</div>
     </header>
     <nav class="cards__body">
         {% if navigation.nav_items %}
@@ -61,26 +61,26 @@
         {% for nav_item in navigation.nav_items %}
           <li class="cards__list--item">
             <a class="cards__list--link" href="/articles/{{ nav_item.link }}">
-              {{nav_item.title}}
+              <h3 class="cards__list--title">{{nav_item.title}}</h3>
             </a>
           </li>
-        
+          {% if nav_item.childe_item %}
+            <ul class="cards__parent">
+            {% for nav_child in nav_item.childe_item %}
+              <li class="cards__parent--child">
+                <a class="cards__parent--link" href="/articles/{{ nav_child.link }}">
+                  <h4 class="cards__parent--hed">{{ nav_child.title }}</h4>
+                  {% if nav_child.dek %}
+                    <p>{{nav_child.dek}}</p>
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
         {% endfor %}
       </ul>
     {% endif %}
-
-      {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({
-          listElement: "ul",            
-          listItemElement: "li", 
-
-          listClass: "cards__list",
-          listItemClass: "cards__list--item", 
-          listItemHasChildrenClass: "cards__children",
-          activeListItemClass: "active",
-          anchorClass: "cards__list--link", 
-
-          showExcerpt: true
-      }) | safe }}
 
     </nav>
   </section>
