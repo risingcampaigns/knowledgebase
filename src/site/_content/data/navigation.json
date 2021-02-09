@@ -8,5 +8,56 @@
     }
   ],
   "kick_title": "#",
-  "nav_items": []
+  "nav_items": [
+    {
+      "title": "Getting Started",
+      "link": "2020-07-07-logging-in",
+      "childe_item": [
+        {
+          "title": "Uploading/Managing Media Assets",
+          "link": "2020-07-09-media-assets"
+        },
+        {
+          "title": "Glossary of Terms",
+          "link": "2020-07-09-website-glossary"
+        }
+      ]
+    },
+    {
+      "title": "Editing The Homepage",
+      "link": "2020-07-07-editing-the-homepage",
+      "childe_item": [
+        {
+          "title": "Homepage Marquee",
+          "link": "2020-12-23-editing-the-marquee"
+        },
+        {
+          "title": "Homepage Supplemental",
+          "link": "2020-12-23-editing-the-supplemental"
+        },
+        {
+          "title": "Promotional Kickers",
+          "link": "2020-12-23-editing-promotional-kickers"
+        }
+      ]
+    },
+    {
+      "title": "Page and Content Types",
+      "link": "2020-07-15-page-and-content-types",
+      "childe_item": [
+        {
+          "title": "Standard Pages",
+          "link": "2020-07-09-page-types"
+        },
+        {
+          "title": "Posts (blog/news/press)",
+          "link": "2020-07-09-blog-posts-news"
+        },
+        {
+          "title": "Platform/Issues",
+          "link": "2020-11-09-platform-posts"
+        }
+      ]
+    }
+  ]
 }
