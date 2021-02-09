@@ -23,7 +23,7 @@ Your Marquee is the first thing most site visitors will see when they visit your
 
 The Supplemental section is where you can expand on your campaign. This is a great section to expand on messaging, introduce your candidate, or tell your campaign's story. 
 
-**[Learn more about editing the Supplemental Section](https://docs.risingcampaigns.com/articles/editing-the-supplmenetal/)**
+**[Learn more about editing the Supplemental Section](/articles/editing-the-supplemental-section/)**
 
 ### Donations
 
@@ -37,7 +37,7 @@ If your organization accepts donations, we use an ActBlue and NGPVAN/EveryAction
 
 Promotion kickers allow you to place blocks of content that take the user to a new page whether it is information or action related is up to you. Kickers are a nice way to drive important action. Promotional Kickers are accessible from the Admin Portal by clicking **Homepage** on the left-side navigation, then **Promotion kickers**. To add or edit Promotion kickers, select the box as shown with the red square below.
 
-[Learn more about editing Promotional Kickers.](https://docs.risingcampaigns.com/articles/editing-the-promotional-kickers/)
+[Learn more about editing Promotional Kickers.](/articles/editing-promotional-kickers/)
 
 ### Modal Content
 
