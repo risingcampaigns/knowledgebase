@@ -13,7 +13,6 @@ collections:
       - file: src/site/_content/data/navigation.json
         name: nav
         label: nav items
-        widget: list
         fields:
           - label: Nav Links
             name: nav_items
