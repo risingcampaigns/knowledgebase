@@ -8,40 +8,5 @@
     }
   ],
   "kick_title": "#",
-  "nav_items": [
-    {
-      "item": {
-        "label": "Getting Started",
-        "link": "2020-07-07-logging-in",
-        "title": "Getting Started"
-      }
-    },
-    {
-      "item": {
-        "label": "Homepage",
-        "link": "2020-07-07-editing-the-homepage",
-        "title": "Homepage",
-        "childe_item": [
-          {
-            "item": {
-              "title": "Marquee",
-              "link": "2020-12-23-editing-the-marquee"
-            }
-          },
-          {
-            "item": {
-              "title": "Homepage Supplemental Section",
-              "link": "2020-12-23-editing-the-supplemental"
-            }
-          },
-          {
-            "item": {
-              "title": "Promotional Kickers",
-              "link": "2020-12-23-editing-promotional-kickers"
-            }
-          }
-        ]
-      }
-    }
-  ]
+  "nav_items": []
 }
