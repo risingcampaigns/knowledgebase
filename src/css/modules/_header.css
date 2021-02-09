@@ -33,7 +33,7 @@
     font-family:"Arthura-Black", Helvetica, sans-serif;
     line-height:1.41;
     font-size:18px;
-    background:#13193A;
+    background:$brandDk;
     color:white;
     @media screen and (min-width:740px) {
       font-size:21px;
