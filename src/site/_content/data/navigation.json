@@ -1,13 +1,4 @@
 {
-  "kick_links": [
-    {
-      "link": {
-        "kick_label": "Take Action",
-        "kick_path": "test"
-      }
-    }
-  ],
-  "kick_title": "#",
   "nav_items": [
     {
       "title": "Getting Started",
