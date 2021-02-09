@@ -56,6 +56,19 @@
       <div class="cards__hed--sub">      {{content | safe }}</div>
     </header>
     <nav class="cards__body">
+        {% if navigation.nav_items %}
+      <ul class="cards__list">
+        {% for nav_item in navigation.nav_items %}
+          <li class="cards__list--item">
+            <a class="cards__list--link" href="/articles/{{ nav_item.link }}">
+              {{nav_item.title}}
+            </a>
+          </li>
+        
+        {% endfor %}
+      </ul>
+    {% endif %}
+
       {{ collections.all | eleventyNavigation("Articles") | eleventyNavigationToHtml({
           listElement: "ul",            
           listItemElement: "li", 
