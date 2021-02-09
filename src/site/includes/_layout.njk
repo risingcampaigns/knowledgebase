@@ -56,24 +56,33 @@
   </header>
   <section class="long">
     <nav id="navigation" class="long__nav">
-    {% set navPages = collections.all | eleventyNavigation %}
+      {% if navigation.nav_items %}
       {% include './_menu.svg.njk' %}
-
-      {% macro renderNavListItem(entry) -%}
-        <li class="long__nav--item">
-          <a class="long__nav--item--link" href="{{ entry.url | url }}">{{ entry.title }}</a>
-          {%- if entry.children.length -%}
-          <ul class="long__nav--item--children">
-            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-          </ul>
-          {%- endif -%}
-        </li>
-      {%- endmacro %}
-
       <ul class="nav">
-      {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-        <li class="long__nav--item"><a href="/faq">Frequently Asked Questions</a></li>
+
+      {% for nav_item in navigation.nav_items %}
+        <li class="long__nav--item">
+          <a class="long__nav--item--link" href="/articles/{{ nav_item.link | slug }}">{{ nav_item.title }}</a>
+          {% if nav_item.childe_item %}
+          <ul class="long__nav--item--children">
+            {% for nav_child in nav_item.childe_item %}
+              <li class="long__nav--item">
+                <a class="long__nav--item--link" href="/articles/{{ nav_child.link | slug }}">
+                  {{ nav_child.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+        </li>
+
+      {% endfor %}
+       <li class="long__nav--item"><a href="/faq">Frequently Asked Questions</a></li>
+       {% endif %}
       </ul>
+
+
     </nav>
 
     <header class="long__hed">
