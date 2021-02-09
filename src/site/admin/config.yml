@@ -28,7 +28,7 @@ collections:
                 widget: list
                 fields:  
                 - {label: Title, name: title, widget: string}
-                - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{slug}}', displayFields: ['title'], required: false}
+                - {label: Link To Page, name: link, widget: relation, collection: 'articles', searchFields: ['title'], valueField: '{{title | slug}}', displayFields: ['title'], required: false}
                 - {label: Deck, name: dek, widget: text}
 
   - name: "articles" # Used in routes, e.g., /admin/collections/blog
