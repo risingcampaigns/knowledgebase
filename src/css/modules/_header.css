@@ -30,8 +30,9 @@
     justify-content: space-between;
     @include hrefColor(white, white, white);
     text-decoration: none;
-    font-family:"Arthura-Black", Helvetica, sans-serif;
-    line-height:1.41;
+    font-family:"Arthura-BlackItalic", Helvetica, sans-serif;
+    line-height:.9;
+    letter-spacing: 1px;
     font-size:18px;
     background:$brandDk;
     color:white;
@@ -44,18 +45,19 @@
       flex: 0 0 auto;
       display: flex;
       flex-flow: row-reverse nowrap;
-      align-items: center;
+      align-items: flex-end;
+      line-height: .8;
       a:hover {
         text-shadow: none;
       }
       img,
       svg {
-        width: 24px;
+        width: 64px;
         max-height: 62px;
         margin-right: 8px;
         fill: $white;
         @media screen and (min-width:740px) {
-          width: 38px;
+          width: 70px;
         }
       }
     }
