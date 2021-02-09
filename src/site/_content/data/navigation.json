@@ -20,30 +20,32 @@
       "childe_item": [
         {
           "title": "Homepage Marquee",
-          "link": "2020-12-23-editing-the-marquee",
-          "dek": "Editing the Marquee at the top of the homepage"
+          "link": "Editing the Marquee",
+          "dek": "Learn about the options for editing first thing most visitors see when visiting your website."
         },
         {
           "title": "Homepage Supplemental",
-          "link": "2020-12-23-editing-the-supplemental"
+          "link": "Editing the Supplemental Section"
         },
         {
           "title": "Promotional Kickers",
-          "link": "2020-12-23-editing-promotional-kickers"
+          "link": "Editing Promotional Kickers"
         },
         {
           "title": "Homepage Donations",
-          "link": "2020-12-23-editing-donation-on-the-homepage"
+          "link": "Editing Donation on the Homepage "
         },
         {
           "title": "Homepage Modal/Pop-up Window",
-          "link": "2020-12-23-editing-modal-content"
+          "link": "Editing Modal Content",
+          "dek": "Learn how to present modal content, also referred to as overlay or pop-up boxes."
         },
         {
           "title": "Modifying Content Order on Homepage",
-          "link": "2020-12-23-editing-content-order"
+          "link": "Editing Content Order "
         }
-      ]
+      ],
+      "dek": "A visitors primary gateway to your website. Learn about the homepage parts, how to create content, and change priorities."
     },
     {
       "title": "Page and Content Types",
@@ -51,17 +53,18 @@
       "childe_item": [
         {
           "title": "Standard Pages",
-          "link": "2020-07-09-page-types"
+          "link": "Pages"
         },
         {
           "title": "Posts (blog/news/press)",
-          "link": "2020-07-09-blog-posts-news"
+          "link": "Blog Posts/News"
         },
         {
           "title": "Platform/Issues",
-          "link": "2020-11-09-platform-posts"
+          "link": "Platform Posts"
         }
-      ]
+      ],
+      "dek": "Learn about the different types of pages and content types."
     },
     {
       "title": "Settings",
