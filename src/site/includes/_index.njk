@@ -60,7 +60,7 @@
       <ul class="cards__list">
         {% for nav_item in navigation.nav_items %}
           <li class="cards__list--item">
-            <a class="cards__list--link" href="/articles/{{ nav_item.link }}">
+            <a class="cards__list--link" href="/articles/{{ nav_item.link | slug }}">
               <h3 class="cards__list--title">{{nav_item.title}}</h3>
             </a>
           </li>
@@ -68,10 +68,10 @@
             <ul class="cards__parent">
             {% for nav_child in nav_item.childe_item %}
               <li class="cards__parent--child">
-                <a class="cards__parent--link" href="/articles/{{ nav_child.link }}">
+                <a class="cards__parent--link" href="/articles/{{ nav_child.link | slug }}">
                   <h4 class="cards__parent--hed">{{ nav_child.title }}</h4>
                   {% if nav_child.dek %}
-                    <p>{{nav_child.dek}}</p>
+                    <p class="cards__parent--dek">{{nav_child.dek}}</p>
                   {% endif %}
                 </a>
               </li>
