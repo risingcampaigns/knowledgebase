@@ -70,6 +70,22 @@
           "link": "2020-11-09-platform-posts"
         }
       ]
+    },
+    {
+      "title": "Settings",
+      "link": "2020-07-09-settings"
+    },
+    {
+      "title": "Working With Forms",
+      "link": "2020-12-23-editing-forms"
+    },
+    {
+      "title": "Troubleshooting",
+      "link": "2020-07-09-troubleshooting"
+    },
+    {
+      "title": "Integrations",
+      "link": "2020-07-09-integrations"
     }
   ]
 }
