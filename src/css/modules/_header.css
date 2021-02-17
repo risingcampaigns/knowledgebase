@@ -52,12 +52,12 @@
       }
       img,
       svg {
-        width: 64px;
+        width: 88px;
         max-height: 62px;
         margin-right: 8px;
         fill: $white;
         @media screen and (min-width:740px) {
-          width: 70px;
+          width: 114px;
         }
       }
     }
