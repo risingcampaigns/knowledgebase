@@ -22,13 +22,13 @@ Our schedules are flexible and based on receiving materials from your Local to g
   * Supplemental
   * Metadata
 
-**Round 1 Build Out (2 business days)**Rising Campaigns will begin building site once the Local has completed the assignment for new content.
+**Round 1 Build Out (4 business days)**Rising Campaigns will begin building site once the Local has completed the assignment for new content.
 
 **Review 1:**
 
 * RC will build the framework of the site using the vision direction and initial content provided in the assignment. We will show other content components with Lorem ipsum. 
 
-**Round 1 Revisions + Rest of content (3 business days)**
+**Round 1 Revisions + Rest of content (4 business days)**
 
 * The Local will have the chance to review and submit a list of changes along with the rest of the content for the site now that they have seen the potential layout. 
 * The Local also must provide DNS info with these revisions, if the DNS is with SEIU we will work with their IT department. 
@@ -40,10 +40,10 @@ Our schedules are flexible and based on receiving materials from your Local to g
 **Review 2:**
 This review over Zoom will show the Local a more completed project. The client will get to make minor tweaks after this review. 
 
-**Round 2 Revisions (1 business day)\*\***\
+**Round 2 Revisions (2 business day)\*\***\
 Review 3:\*\*The Local will get their last chance to make small changes or decide if they want to pay for another round of significant changes. (Significant changes include major design overhaul or specific feature requests)
 
-**Round 3 Build Out (1 business day)**Rising Campaigns will also set up the DNS to begin propagating site to go live.
+**Round 3 Build Out (2 business day)**Rising Campaigns will also set up the DNS to begin propagating site to go live.
 
 **Final Review:** The Local will get to review the site and confirm it is good to go live. (If the client has changes in the final review that are not just content related, they will be billed hourly for those changes.)
 
