@@ -14,4 +14,4 @@ Modal boxes allow the user to create an entry point to the site that highlights 
 
 In a modal setup, you will have the ability to publish or un-publish by merely selecting a toggle at the top. You can add a donation form with specified amounts like you would have done for the main donation page/section. We also allow for users to embed video code directly into the body section of the modal. (Pro-tip, be sure to toggle to Markdown for Rich Text if you are embedding code).
 
-![](https://docs.risingcampaigns.com/img/uploads/content-manager-modal.png)
+![Screenshot: Modal Box Management](https://docs.risingcampaigns.com/img/uploads/content-manager-modal.png)
