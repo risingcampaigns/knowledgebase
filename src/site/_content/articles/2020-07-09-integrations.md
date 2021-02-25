@@ -32,7 +32,7 @@ The user will be taken to the NGPVAN/EveryAction to complete their donation, but
 
 ## Forms
 
-* ### NGPVAN/EveryAction, The Action Network, MailChimp
+### NGPVAN/EveryAction, The Action Network, MailChimp
 
 Form code can be grabbed from the form that your organization creates on your CRM. Once you have that code, place that code in the Body section of any page, and your styled form will be created. Here is an example of form code that you would place in the body section of the CMS:
 
