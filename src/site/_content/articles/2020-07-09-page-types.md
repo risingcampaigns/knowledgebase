@@ -68,3 +68,9 @@ If you want to add in HTML code from YouTube or any other source that provide HT
 
 2. Once you have toggled over to Markdown you can now paste the code in and hit publish. 
 3. Wait roughly 1 minute and refresh the live version of the site to check and make sure the HTML snippet is displaying properly. If you paste in a video and the viewport is not responding properly, submit a ticket at help@risingcampaigns.com
+
+#### Using Kickers
+
+
+
+#### Using Groups
