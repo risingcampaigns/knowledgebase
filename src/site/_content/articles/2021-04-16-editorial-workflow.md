@@ -1,7 +1,7 @@
 ---
 title: Editorial Workflow
 date: 2021-04-16T19:03:46.854Z
-dek: "How to save work as a draft for review. "
+dek: "How to save work as a draft for review.  "
 ---
 
 
