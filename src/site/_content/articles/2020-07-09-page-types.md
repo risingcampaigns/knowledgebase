@@ -71,6 +71,31 @@ If you want to add in HTML code from YouTube or any other source that provide HT
 
 #### Using Kickers
 
+Page kickers allow you to place blocks of content that take the user to a new page whether it is information or action related is up to you. Kickers are a nice way to drive important action. Page Kickers are accessible from on each new page below the body.
 
+![](https://docs.risingcampaigns.com/img/uploads/content_manager-4-.png)
+
+To add a kicker select the add kicker box to bring up more content options:
+
+![](https://docs.risingcampaigns.com/img/uploads/content_manager-5-.png)
+
+Here is what your content options will be followed by what one looks like filled out:
+
+![](https://docs.risingcampaigns.com/img/uploads/screen-shot-2020-07-17-at-2.16.17-pm.png)
+
+![](https://docs.risingcampaigns.com/img/uploads/screen-shot-2020-07-17-at-2.16.36-pm.png)
+
+![](https://docs.risingcampaigns.com/img/uploads/screen-shot-2020-07-17-at-2.16.42-pm.png)
+
+What will you need to for a promotional kicker?
+
+* Title (Keep it short)
+* Deck (Keep it short)
+* Image (Optional)
+* Link (This can be internal or external link)
+
+Here is a sample Promotional Kicker section:
+
+![](https://docs.risingcampaigns.com/img/uploads/screen-shot-2020-07-17-at-2.21.13-pm.png)
 
 #### Using Groups
