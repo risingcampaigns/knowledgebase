@@ -3,26 +3,28 @@ title: Editorial Workflow
 date: 2021-04-16T19:03:46.854Z
 dek: "How to save work as a draft for review.  "
 ---
+By default, when you create content in Rising Campaigns Platform, that content is immediately published to your website. However, you also have the option to use an **Editorial Workflow**, which adds an interface for drafting, reviewing, and approving content before it is published to your production website. 
 
+Editorial Workflow is helpful for organizations with multi-tier teams for content approval. This feature is available upon request, and you can send an email to help@risingcampaigns.com to have it enabled on your site. 
 
-To get this feature, request access at help@risingcampaigns.com and we will get it turned on. 
+When **Editorial Workflow** is enabled, you will find additional options when creating and saving blog, platform, or page content.
 
-Once you have access, follow these steps:
+![Editorial Workflow in Header Screenshot](/img/uploads/screen-shot-2021-04-21-at-2.39.02-pm.png "Editorial Workflow in Header")
 
-* Create a blog, page, or platform post
-* When the post is finished select SAVE in the navigation in the top left corner of the CMS.
+When the page has been saved, you will see a "Check for Preview" option in the header of the edit page. Clicking this link will check to see if the preview has deployed, and when the preview is available, the link will be replaced with a "View Live" link that takes you directly to the blog, platform, or page post on a staging URL.
 
-![](/img/uploads/screen-shot-2021-04-16-at-3.08.49-pm.png)
+![Editorial Workflow Preview Link Screenshot](/img/uploads/screen-shot-2021-04-21-at-2.39.14-pm.png "Editorial Workflow Preview Link")
 
-* Once you have done that a status bar should appear next to the publish button. 
+Once your content is ready for the next step in the Editorial Workflow process, click on the Set Status option in the edit page header. You will have the option to select one of three statuses: Draft, In Review, and Ready.
 
-  ![](/img/uploads/screen-shot-2021-04-16-at-3.11.03-pm.png)
-* Once you have that selected, select the status of the post, if it needs to be reviewed, set it *in review.*
-* After the post is approved select, *Ready,* in the status then press Publish. 
-* To access an article in draft or in review, visit the home screen of the CMS and you will see a Workflow button at the top left.
+* *Draft* is the initial status for content created through the Editorial Workflow
+* *In Review* content represents content that has been created and is ready for review from an approved editor.
+* Once the content has been reviewed, its status can be updated to *Ready* at which point, you can select "Publish Now" from the Publish link.
 
-  ![](/img/uploads/screen-shot-2021-04-16-at-3.15.52-pm.png)
-* When you select workflow, you will see a screen that looks like this.
+### Editorial Workflow Dashboard
 
-  ![](/img/uploads/screen-shot-2021-04-16-at-3.16.57-pm.png)
-* From here you will be able to edit posts that need review or are in draft and then follow the steps above for the post approval.
+When using the Editorial Workflow, your team is encouraged to use the Workflow Dashboard to get a birds-eye view of where various pieces of content are in the publishing cycle. 
+
+![Editorial Workflow Dashboard Screenshot](/img/uploads/screen-shot-2021-04-21-at-2.52.10-pm.png "Editorial Workflow Dashboard")
+
+You can access the dashboard by clicking on Workflow from the header on the main page of the CMS.
